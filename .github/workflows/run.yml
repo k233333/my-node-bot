@@ -1,20 +1,23 @@
-name: Node Classifier
+name: Node Auto Updater
 
 on:
   schedule:
-    # 设定为每天 UTC 时间 00:00 运行（对应北京时间早上 8:00）
-    - cron: '0 0 * * *' 
-  workflow_dispatch: # 这个配置允许你在网页上手动点击按钮立即运行
+    - cron: '0 0 * * *' # 每天北京时间早上 8 点运行
+  workflow_dispatch:
+
+# 必须添加读写权限，否则无法生成文件
+permissions:
+  contents: write
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.10'
 
@@ -23,11 +26,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run Node Classifier
+    - name: Run Node Script
       env:
-        # 将你在 Settings 里填写的机密信息传递给 Python 脚本
         SUB_URL: ${{ secrets.SUB_URL }}
         EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
       run: python process_nodes.py
+
+    - name: Commit and Push sub.txt
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add sub.txt
+        # 检查文件是否有变动，如果有则提交并推送
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update sub.txt" && git push)
