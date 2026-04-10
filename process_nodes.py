@@ -9,11 +9,12 @@ import urllib.parse
 from email.mime.text import MIMEText
 from email.header import Header
 
-# 获取 GitHub Secrets 环境变量
+# 获取系统与用户环境变量
 SUB_URL = os.environ.get("SUB_URL")
 EMAIL_SENDER = os.environ.get("EMAIL_SENDER")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER")
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "")
 
 FLAG_MAP = {
     "美国": "🇺🇸", "香港": "🇭🇰", "台湾": "🇨🇳", "日本": "🇯🇵", 
@@ -22,7 +23,6 @@ FLAG_MAP = {
 }
 
 def get_sub_data():
-    print("正在拉取原始订阅链接...")
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         response = requests.get(SUB_URL, headers=headers, timeout=15)
@@ -41,7 +41,7 @@ def get_sub_data():
                 
             return [line.strip() for line in decoded_text.split('\n') if line.strip()]
     except Exception as e:
-        print(f"请求报错: {e}")
+        print(f"请求异常: {e}")
     return []
 
 def extract_node_info(link):
@@ -74,7 +74,7 @@ def get_ip_info(ip):
 def main():
     nodes = get_sub_data()
     if not nodes:
-        print("未获取到节点，脚本终止。")
+        print("无有效节点输入，程序退出。")
         return
 
     classified_nodes = {}
@@ -87,7 +87,6 @@ def main():
     ]
 
     valid_nodes_count = 0
-    print(f"开始全面体检，共 {len(nodes)} 个节点...")
     
     for link in nodes:
         ip, port, base_link = extract_node_info(link)
@@ -112,7 +111,8 @@ def main():
         else:
             node_type = "🏠 家宽"
             
-        new_node_name = f"{flag} {country} | {node_type} | {ping_str}"
+        # 此处添加了自定义前缀
+        new_node_name = f"张牛 13 {flag} {country} | {node_type} | {ping_str}"
         new_link = f"{base_link}#{urllib.parse.quote(new_node_name)}"
         new_subscription_links.append(new_link)
         
@@ -120,20 +120,25 @@ def main():
             classified_nodes[country] = []
         classified_nodes[country].append(f"[{node_type}] {ping_str} - IP: {ip} ({isp})")
 
-    # 生成 Base64
     final_sub_content = "\n".join(new_subscription_links)
     new_sub_base64 = base64.b64encode(final_sub_content.encode('utf-8')).decode('utf-8')
 
-    # 将订阅内容保存为本地文件 sub.txt
     with open("sub.txt", "w", encoding="utf-8") as f:
         f.write(new_sub_base64)
-        print("本地文件 sub.txt 生成成功！")
 
-    # 生成发给你的汇总邮件
+    pages_url = "未获取到链接，请检查 GitHub 环境变量"
+    if GITHUB_REPOSITORY and "/" in GITHUB_REPOSITORY:
+        user, repo = GITHUB_REPOSITORY.split("/")
+        pages_url = f"https://{user}.github.io/{repo}/sub.txt"
+
     html_content = f"""
     <div style="font-family: sans-serif; color: #333;">
-        <h2>🚀 自动订阅已更新</h2>
-        <p>本次成功提取并重命名 <b>{valid_nodes_count}</b> 个节点。文件已自动推送到你的 GitHub Pages，你的小火箭客户端即将自动同步。</p>
+        <h2>🚀 自动订阅更新报告</h2>
+        <p>有效节点数: <b>{valid_nodes_count}</b> 个。</p>
+        <p>文件已推送到 GitHub Pages。你的小火箭订阅直链为：</p>
+        <div style="background-color: #f4f4f4; padding: 12px; border-left: 4px solid #007AFF; font-size: 16px; margin: 15px 0;">
+            <b>{pages_url}</b>
+        </div>
         <hr>
         <h3>📊 节点区域明细</h3>
     """
@@ -148,20 +153,18 @@ def main():
         html_content += "</ul>"
     html_content += "</div>"
 
-    print("开始发送邮件...")
     msg = MIMEText(html_content, 'html', 'utf-8')
     msg['From'] = Header("Node-Master", 'utf-8')
     msg['To'] = EMAIL_RECEIVER 
-    msg['Subject'] = Header("🚀 今日专属订阅更新成功", 'utf-8')
+    msg['Subject'] = Header("自动化节点体检完成", 'utf-8')
 
     try:
         server = smtplib.SMTP_SSL("smtp.163.com", 465)
         server.login(EMAIL_SENDER, EMAIL_PASSWORD)
         server.sendmail(EMAIL_SENDER, [EMAIL_RECEIVER], msg.as_string())
         server.quit()
-        print("邮件发送成功！")
     except Exception as e:
-        print(f"邮件发送失败: {e}")
+        print(f"邮件发送异常: {e}")
 
 if __name__ == "__main__":
     main()
