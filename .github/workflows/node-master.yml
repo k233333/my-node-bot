@@ -1,0 +1,63 @@
+name: Node Master Daily Check
+
+on:
+  schedule:
+    # 北京时间 06:00 = UTC 22:00
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run node checker
+        env:
+          SUB_URL: ${{ secrets.SUB_URL }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+          SMTP_HOST: smtp.163.com
+          SMTP_PORT: 465
+
+          TOTAL_LIMIT: 300
+          FINAL_LIMIT: 220
+          MAX_WORKERS: 16
+          TCP_TIMEOUT: 2.0
+          ALIVE_LIMIT_MS: 3000
+          MAX_IPINFO_LOOKUPS: 180
+          IPINFO_SLEEP_SEC: 0.35
+          SEND_EMAIL: true
+        run: |
+          python main.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add sub.txt clash.yaml report.html nodes.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "update node subscription"
+            git push
+          fi
