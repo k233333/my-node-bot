@@ -46,7 +46,7 @@ jobs:
           IPINFO_SLEEP_SEC: 0.35
           SEND_EMAIL: true
         run: |
-          python main.py
+          python process_nodes.py
 
       - name: Commit generated files
         run: |
