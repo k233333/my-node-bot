@@ -1,0 +1,4069 @@
+mixed-port: 7890
+allow-lan: false
+mode: "rule"
+log-level: "info"
+ipv6: false
+unified-delay: true
+tcp-concurrent: true
+global-client-fingerprint: "chrome"
+profile:
+  store-selected: true
+  store-fake-ip: true
+proxies:
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+    type: "vless"
+    server: "151.101.2.219"
+    port: 443
+    uuid: "358eab4b-7db4-4f93-a7b0-5e6f98b7cf45"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "tody.ir."
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+    type: "vless"
+    server: "151.101.3.8"
+    port: 80
+    uuid: "3b940e86-7b0d-40da-acf1-12d334e41023"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "Fastapi.Org"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "108.162.198.49"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "198.41.223.145"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+    type: "vless"
+    server: "8.39.125.138"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+    type: "vless"
+    server: "104.19.45.125"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+    type: "vless"
+    server: "8.35.211.125"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+    type: "vless"
+    server: "8.39.125.15"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+    type: "vless"
+    server: "172.64.229.15"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+    type: "vless"
+    server: "8.35.211.234"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+    type: "vless"
+    server: "172.64.229.40"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+    type: "vless"
+    server: "104.26.10.63"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+    type: "vless"
+    server: "173.245.58.56"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+    type: "vless"
+    server: "104.26.1.31"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+    type: "vless"
+    server: "172.67.75.6"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+    type: "vless"
+    server: "108.162.198.113"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+    type: "vless"
+    server: "198.41.223.78"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+    type: "vless"
+    server: "104.26.10.249"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+    type: "vless"
+    server: "173.245.59.204"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+    type: "vless"
+    server: "104.26.1.29"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+    type: "vless"
+    server: "8.39.125.128"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+    type: "vless"
+    server: "8.35.211.211"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+    type: "vless"
+    server: "108.162.198.77"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+    type: "vless"
+    server: "172.64.228.209"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+    type: "vless"
+    server: "8.39.125.139"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+    type: "vless"
+    server: "104.19.44.214"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+    type: "vless"
+    server: "198.41.223.19"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+    type: "vless"
+    server: "172.67.69.138"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+    type: "vless"
+    server: "104.19.53.242"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+    type: "vless"
+    server: "198.41.223.89"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+    type: "vless"
+    server: "104.19.37.9"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+    type: "vless"
+    server: "162.159.152.252"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+    type: "vless"
+    server: "104.19.57.114"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+    type: "vless"
+    server: "104.26.15.227"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+    type: "vless"
+    server: "172.64.228.173"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+    type: "vless"
+    server: "104.26.11.156"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+    type: "vless"
+    server: "8.35.211.65"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+    type: "vless"
+    server: "8.39.125.82"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "88.216.66.193"
+    port: 443
+    uuid: "f775978b-6e22-41a8-ae5e-5f9779e6745f"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "juzibaipiao.5112233.xyz"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "45.205.0.251"
+    port: 8880
+    uuid: "0132166f-e702-48ed-a9e7-b07af768faf8"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "cf.d3z.net"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "104.16.1.106"
+    port: 80
+    uuid: "e61636e0-d630-4596-db9d-407ae309ab47"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "eng.vinamarketcenter.ir"
+  -
+    name: "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "193.9.49.77"
+    port: 443
+    uuid: "7a80a8d9-92f9-4f0a-8352-9005a8215ab8"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "rAyAn-12.LeIlA.DpDnS.OrG"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "216.24.57.59"
+    port: 443
+    uuid: "a13df940-020c-465f-bc89-ee5279b5cd6a"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "cp.ylks.xyz"
+  -
+    name: "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "185.146.173.59"
+    port: 80
+    uuid: "---DIGiV2RAY---"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "digi--v2raycncfs.RadioTeHran.oRG."
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "192.200.160.86"
+    port: 2052
+    uuid: "17b42a04-83b8-4b93-b9f3-285d256d87d8"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shy-paper-dec6.congcong1412243609.workers.dev"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+    type: "vless"
+    server: "104.17.98.251"
+    port: 443
+    uuid: "aaaaaabb-4ddd-4eee-9fff-ffffffffffff"
+    udp: true
+    tls: false
+    network: "tcp"
+    encryption: "none"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+    type: "vless"
+    server: "104.21.71.206"
+    port: 80
+    uuid: "781a8eb4-c4f7-4f99-9dee-e80369dbf1ec"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "us1.rtacg.com"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+    type: "vless"
+    server: "104.18.24.92"
+    port: 2053
+    uuid: "932f5b07-e1c8-4f6b-9f32-44c07ae1df8b"
+    udp: true
+    tls: true
+    network: "grpc"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    grpc-opts:
+      grpc-service-name: "@global_net_vpn"
+  -
+    name: "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "45.80.111.219"
+    port: 80
+    uuid: "53fa8faf-ba4b-4322-9c69-a3e5b1555049"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "reedfree8mahsang2.redorg.ir"
+  -
+    name: "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "188.42.89.245"
+    port: 2053
+    uuid: "ee2bb495-2632-445b-b1f8-3c476a50b78b"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "dl1-uk-cdn.easy-upload.org"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+    type: "vless"
+    server: "104.16.228.91"
+    port: 80
+    uuid: "f278037e-ce36-4634-9b4d-fca93e345a35"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "barayeiran.mahiozonboroon.qzz.io"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+    type: "vless"
+    server: "198.41.215.10"
+    port: 443
+    uuid: "ff072857-d08f-4fc9-a52e-30946d0926cd"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "venom90.pages.dev"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+    type: "vless"
+    server: "192.200.160.155"
+    port: 443
+    uuid: "a13df940-020c-465f-bc89-ee5279b5cd6a"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "lo.kpcloud.eu.org"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+    type: "vless"
+    server: "www.speedtest.net"
+    port: 2095
+    uuid: "e4e82781-f854-4f5e-bfeb-8f34d8ab9fe7"
+    udp: true
+    tls: false
+    network: "httpupgrade"
+    encryption: "none"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+    type: "vless"
+    server: "135.84.74.166"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "27.50.48.21"
+    port: 443
+    uuid: "b28eb861-1748-4200-ba72-278669edc33b"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "barayeiranmahsang.mahmoodchitooz.dpdns.org"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+    type: "vless"
+    server: "63.141.128.9"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+    type: "vless"
+    server: "104.16.51.36"
+    port: 80
+    uuid: "5459f68e-d914-4b31-93a3-ecdf638b7a5b"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "barayeiran-mahsang.taraneh.dpdns.org"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+    type: "vless"
+    server: "162.159.129.11"
+    port: 443
+    uuid: "75fde681-ec64-4654-86fa-30732e8e179c"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "nginx.nscl.ir"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+    type: "vless"
+    server: "104.18.35.85"
+    port: 443
+    uuid: "060a8fe8-7175-4ded-94a5-d9808bc645b6"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha] b2n.ir/v2ray-configs | 158"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "cf.vless.sandesh.fr"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "104.18.16.56"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/?Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "154.198.173.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/?Telegram🇨🇳@WangCai2="
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "104.20.6.134"
+    port: 443
+    uuid: "a01daac7-1e65-4645-854d-b47d226f6b08"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "y6-3cj.PAgES.DEV"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "y6-3cj.PAgES.DEV"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+    type: "vless"
+    server: "167.68.5.191"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.my111000.tech"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.my111000.tech"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+    type: "vless"
+    server: "198.41.223.124"
+    port: 443
+    uuid: "df862b4c-2150-4b36-81ac-405036cf9ff6"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "kalami-eew.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kalami-eew.pages.dev"
+  -
+    name: "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "176.124.223.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "45.40.150.191"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.my111000.tech"
+    ws-opts:
+      path: "Telegram🇨🇳@WangCai2/?ed=2560"
+      headers:
+        Host: "sni.my111000.tech"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "216.24.57.1"
+    port: 443
+    uuid: "8c4604ef-749c-4b56-adf1-7da405002a21"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "qyi.fqjd663.ggff.net"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "qyi.fqjd663.ggff.net"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "185.16.110.0"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+    type: "vless"
+    server: "45.40.153.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.jpmj.dev"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.jpmj.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+    type: "vless"
+    server: "199.34.228.160"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "195.85.59.69"
+    port: 2095
+    uuid: "86c50e3a-5b87-49dd-bd20-03c7f2735e40"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cnmfangbinxingnmsl.cnm-fangbinxing--nmsl.workers.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+    type: "vless"
+    server: "104.17.185.207"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    ws-opts:
+      path: "/?proxyip=ip.111000.de5.net%3A443"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "195.85.23.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "45.131.210.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+    type: "vless"
+    server: "172.64.149.54"
+    port: 443
+    uuid: "06ef598c-1555-4887-b3f9-08214a2f6792"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "2026.hhhhh.eu.org"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "2026.hhhhh.eu.org"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+    type: "vless"
+    server: "184.174.80.238"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.jpmj.dev"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.jpmj.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+    type: "vless"
+    server: "172.66.3.201"
+    port: 443
+    uuid: "a6f1755f-0140-4bea-8727-0db1bed7c4df"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "juzi.qea.ccwu.cc"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "juzi.qea.ccwu.cc"
+  -
+    name: "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "45.130.125.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+    type: "vless"
+    server: "172.67.164.152"
+    port: 443
+    uuid: "36a857e4-f3d4-43aa-8b90-d7da849da989"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "002.Inc-ElectROcElL-001-002.WoRKERS.DEV"
+    ws-opts:
+      path: "/eyJqdW5rIjoib0RnakxTZUZvOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: "002.inc-electrocell-001-002.workers.dev"
+  -
+    name: "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "185.207.199.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+    type: "vless"
+    server: "104.18.41.14"
+    port: 2053
+    uuid: "df862b4c-2150-4b36-81ac-405036cf9ff6"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "kalami-eew.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kalami-eew.pages.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+    type: "vless"
+    server: "166.62.107.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+    type: "vless"
+    server: "162.120.94.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+    type: "vless"
+    server: "173.245.59.249"
+    port: 443
+    uuid: "df862b4c-2150-4b36-81ac-405036cf9ff6"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "kalami-eew.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kalami-eew.pages.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+    type: "vless"
+    server: "188.114.99.243"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+    type: "vless"
+    server: "8.39.125.51"
+    port: 2083
+    uuid: "52f94104-7a84-4342-8bcd-96969eb46cbe"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "tristandeng.cc.cd"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "tristandeng.cc.cd"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "181.214.1.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.jpmj.dev"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.jpmj.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+    type: "vless"
+    server: "8.39.125.146"
+    port: 2083
+    uuid: "df862b4c-2150-4b36-81ac-405036cf9ff6"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "kalami-eew.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kalami-eew.pages.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+    type: "vless"
+    server: "104.18.4.130"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+    type: "vless"
+    server: "135.84.73.129"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    ws-opts:
+      path: "/?Telegram🇨🇳@WangCai2="
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "89.116.250.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/?Telegram🇨🇳 @WangCai2="
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+    type: "vless"
+    server: "104.18.32.47"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?Telegram+@WangCai2"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "185.176.24.138"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+    type: "vless"
+    server: "104.16.80.73"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+    type: "vless"
+    server: "14.102.229.43"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.cc.cd"
+    ws-opts:
+      path: "/?https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3="
+      headers:
+        Host: "sni.111000.cc.cd"
+  -
+    name: "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+    type: "vless"
+    server: "104.234.239.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.jpmj.dev"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.jpmj.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+    type: "vless"
+    server: "141.101.121.169"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+    type: "vless"
+    server: "135.84.72.25"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+    type: "vless"
+    server: "172.64.144.169"
+    port: 2087
+    uuid: "df862b4c-2150-4b36-81ac-405036cf9ff6"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "kalami-eew.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kalami-eew.pages.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+    type: "vless"
+    server: "192.200.160.19"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+    type: "vless"
+    server: "104.17.138.160"
+    port: 80
+    uuid: "388a6c57-87e7-420b-afe2-b3eb670fd7da"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vip.yaml7.ggff.net"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+    type: "vless"
+    server: "162.159.153.2"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+    type: "vless"
+    server: "8.39.125.176"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+    type: "vless"
+    server: "104.19.32.20"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+    type: "vless"
+    server: "172.67.72.129"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+    type: "vless"
+    server: "162.159.36.114"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+    type: "vless"
+    server: "104.19.56.63"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+    type: "vless"
+    server: "162.159.153.196"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+    type: "vless"
+    server: "172.67.73.8"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+    type: "vless"
+    server: "172.64.228.115"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+    type: "vless"
+    server: "104.26.11.162"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+    type: "vless"
+    server: "104.18.46.128"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+    type: "vless"
+    server: "104.19.53.246"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+    type: "vless"
+    server: "162.159.35.45"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+    type: "vless"
+    server: "172.64.228.186"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+    type: "vless"
+    server: "104.19.38.245"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+    type: "vless"
+    server: "173.245.59.44"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+    type: "vless"
+    server: "104.19.49.211"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+    type: "vless"
+    server: "104.19.60.109"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+    type: "vless"
+    server: "162.159.152.204"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+    type: "vless"
+    server: "173.245.58.210"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+    type: "vless"
+    server: "8.39.125.163"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+    type: "vless"
+    server: "172.67.67.80"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+    type: "vless"
+    server: "104.18.47.182"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+    type: "vless"
+    server: "172.64.228.252"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+    type: "vless"
+    server: "104.18.33.245"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+    type: "vless"
+    server: "45.131.4.85"
+    port: 80
+    uuid: "2036e2c3-18a5-4eed-9db4-f91a7f02c7d5"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "zoomgov.vipren.biz.id"
+  -
+    name: "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+    type: "vless"
+    server: "193.9.49.188"
+    port: 8880
+    uuid: "583ceab3-4022-4553-9158-9bedc625ad4e"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "ip.langmanshanxi.top"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+    type: "vless"
+    server: "www.speedtest.net"
+    port: 2082
+    uuid: "531669f8-4141-4ca1-e7d5-d6a6fff35ff4"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top."
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+    type: "vless"
+    server: "104.21.44.185"
+    port: 443
+    uuid: "95342990-2fa1-4100-a559-c3f5e25f450d"
+    udp: true
+    tls: true
+    network: "grpc"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "random"
+    grpc-opts:
+      grpc-service-name: "/52933/mehdi"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+    type: "vless"
+    server: "104.18.12.149"
+    port: 443
+    uuid: "a01daac7-1e65-4645-854d-b47d226f6b08"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "y6-3cj.PAgES.DEV"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "y6-3cj.PAgES.DEV"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+    type: "vless"
+    server: "185.16.110.238"
+    port: 2096
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.jpmj.dev"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "sni.jpmj.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+    type: "vless"
+    server: "198.41.223.247"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+    type: "vless"
+    server: "198.41.223.193"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+    type: "vless"
+    server: "172.64.144.129"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+    type: "vless"
+    server: "172.64.228.127"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+    type: "vless"
+    server: "172.67.75.242"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+    type: "vless"
+    server: "173.245.58.232"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+    type: "vless"
+    server: "162.159.33.15"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+    type: "vless"
+    server: "104.19.34.127"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+    type: "vless"
+    server: "162.159.152.181"
+    port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+    type: "vless"
+    server: "162.159.153.73"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+    type: "vless"
+    server: "172.67.73.187"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+    type: "vless"
+    server: "8.35.211.248"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+    type: "vless"
+    server: "cdnjs.com"
+    port: 443
+    uuid: "db400287-fb42-441d-8a76-5624a8a96f49"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "rayan-roof.atena.dpdns.org"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+    type: "vless"
+    server: "162.159.38.130"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+    type: "vless"
+    server: "sage.ns.cloudflare.com"
+    port: 443
+    uuid: "ee6774c0-9b19-4ff1-8b30-2da4b71977e2"
+    udp: true
+    tls: false
+    network: "tcp"
+    encryption: "none"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+    type: "vless"
+    server: "www.speedtest.net"
+    port: 2082
+    uuid: "5fa33eed-6d56-49bd-a062-6de3b847f339"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top."
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+    type: "vless"
+    server: "www.speedtest.net"
+    port: 2095
+    uuid: "bia--ZEDMODEON"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "www.speedtest.net.列列上列列上列列上.らわな.らわなさ.tech."
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+    type: "vless"
+    server: "chatgpt.com"
+    port: 2087
+    uuid: "d1b421cc-ebaf-48cf-bf12-e7947af11c53"
+    udp: true
+    tls: true
+    network: "httpupgrade"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "chrome"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+    type: "vless"
+    server: "50.228.203.26"
+    port: 443
+    uuid: "981fca81-5be1-41f8-ac9b-d138e8109943"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha] vless-US"
+      headers:
+        Host: "babayaga-6i7.pages.dev"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+    type: "vless"
+    server: "love.zshabai.top"
+    port: 443
+    uuid: "ce069292-c8bf-40dd-a6b1-87818a1e64e9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "2-eox.pages.dev"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "2-eox.pages.dev"
+  -
+    name: "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+    type: "vless"
+    server: "152.233.28.198"
+    port: 8443
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    servername: "uk1.fromblancwithlove.com"
+  -
+    name: "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+    type: "vless"
+    server: "23.81.35.57"
+    port: 443
+    uuid: "d009167c-a93e-4c06-9f89-ceb45acf14a8"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw"
+  -
+    name: "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+    type: "vless"
+    server: "46.101.81.245"
+    port: 443
+    uuid: "bafacd98-136a-4530-838d-4e5c51838dac"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "juzi8186.qea.ccwu.cc"
+    client-fingerprint: "firefox"
+    ws-opts:
+      path: "/lessons/dload/juzibaipiao?ed=2560"
+      headers:
+        Host: "juzi8186.qea.ccwu.cc"
+  -
+    name: "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+    type: "vless"
+    server: "57.128.181.24"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+    type: "vless"
+    server: "51.91.249.154"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+    type: "vless"
+    server: "54.36.98.93"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+    type: "vless"
+    server: "51.38.232.101"
+    port: 80
+    uuid: "40510d0f-d4d1-4c86-9c8e-9d584da9710d"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+    type: "vless"
+    server: "54.36.99.75"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+    type: "vless"
+    server: "195.54.161.101"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.rocks"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.rocks"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+    type: "vless"
+    server: "193.109.69.48"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dns.army"
+    ws-opts:
+      path: "/?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3="
+      headers:
+        Host: "sni.111000.dns.army"
+  -
+    name: "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+    type: "vless"
+    server: "57.128.177.206"
+    port: 443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+    type: "vless"
+    server: "54.36.98.199"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+    type: "vless"
+    server: "178.159.10.78"
+    port: 443
+    uuid: "43488128-319e-f480-64ea-0acdc712e2a8"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "www.vodafone.co.uk"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "6tORX9bm6UlGJ4dR8L2kzOd21oSrOyzpN7gC6SqGGyc"
+      short-id: "d27683580fc15f1e"
+  -
+    name: "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+    type: "vless"
+    server: "8.217.49.16"
+    port: 443
+    uuid: "3e7f67de-648e-4871-b51a-a225214d41ee"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    servername: "wwwimages2.adobe.com"
+    reality-opts:
+      public-key: "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw"
+  -
+    name: "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+    type: "vless"
+    server: "54.36.98.30"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+    type: "vless"
+    server: "51.195.119.195"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+    type: "vless"
+    server: "193.124.49.246"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dns.army"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.dns.army"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+    type: "vless"
+    server: "51.158.206.80"
+    port: 23576
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "fuck.rkn"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
+      short-id: "01"
+  -
+    name: "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+    type: "vless"
+    server: "185.143.233.5"
+    port: 443
+    uuid: "3ce2cabf-9282-4941-9117-86880eae3ddb"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "🔒 [By EbraSha] Psiphon-@V2rayAlpha--1"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "🔒 [By EbraSha]"
+      headers:
+        Host: "alaedin3.8lack.ir"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+    type: "vless"
+    server: "57.129.47.14"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+    type: "vless"
+    server: "51.91.254.189"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.v6.navy"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.v6.navy"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+    type: "vless"
+    server: "212.34.148.122"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/?Telegram🇨🇳+@WangCai2="
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+    type: "vless"
+    server: "51.158.206.103"
+    port: 23576
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "fuck.rkn"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
+      short-id: "01"
+  -
+    name: "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+    type: "vless"
+    server: "91.99.106.117"
+    port: 443
+    uuid: "309fa273-6579-4cb2-9143-7cad50401eba"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY"
+      short-id: "7cad5040"
+  -
+    name: "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+    type: "vless"
+    server: "212.34.142.191"
+    port: 8443
+    uuid: "a5e746f7-328f-4b65-a65f-e2e2a4a5b1a9"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "wNcFqVd4_PkgJbfgJJeouSU6Pn_Swuce4q4Chw5T0hY"
+      short-id: "f7aa9e61197d3ac6"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+    type: "vless"
+    server: "188.34.193.153"
+    port: 443
+    uuid: "309fa273-6579-4cb2-9143-7cad50401eba"
+    udp: true
+    tls: true
+    network: "raw"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "gZGVp5PUdafgsmi1gawa1yLuha_XhXRc_W9SvPiGmTY"
+      short-id: "7cad5040"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+    type: "vless"
+    server: "162.19.243.106"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+    type: "vless"
+    server: "57.129.63.154"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.dynv6.net"
+    ws-opts:
+      path: "/?Telegram馃嚚馃嚦 @WangCai2="
+      headers:
+        Host: "sni.111000.dynv6.net"
+  -
+    name: "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+    type: "vless"
+    server: "167.71.65.205"
+    port: 8443
+    uuid: "bafacd98-136a-4530-838d-4e5c51838dac"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "juzi8186.qea.ccwu.cc"
+    ws-opts:
+      path: "/travel/juzibaipiao"
+      headers:
+        Host: "juzi8186.qea.ccwu.cc"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+    type: "vless"
+    server: "130.61.51.100"
+    port: 8443
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+    type: "vless"
+    server: "91.99.194.54"
+    port: 443
+    uuid: "153ee04c-dcc1-4ef8-a146-8fb31cec1f48"
+    udp: true
+    tls: false
+    network: "tcp"
+    encryption: "none"
+  -
+    name: "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+    type: "vless"
+    server: "90.156.255.198"
+    port: 51114
+    uuid: "8b575b35-3c7c-42b0-ac80-2aa6b0d7717c"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "lf7NJGZAcj3b-YdbsmD6oEISr0dZRjp_gM8ZhLHwb0U"
+      short-id: "772e"
+  -
+    name: "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+    type: "vless"
+    server: "64.227.174.213"
+    port: 2053
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "sni.111000.indevs.in"
+    ws-opts:
+      path: "/?ed=2560&Telegram🇨🇳+@WangCai2"
+      headers:
+        Host: "sni.111000.indevs.in"
+  -
+    name: "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+    type: "vless"
+    server: "cf8.danfeng.eu.org"
+    port: 2096
+    uuid: "bafacd98-136a-4530-838d-4e5c51838dac"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "juzi8186.qea.ccwu.cc"
+    client-fingerprint: "firefox"
+    ws-opts:
+      path: "/show/about/juzibaipiao?ed=2560"
+      headers:
+        Host: "juzi8186.qea.ccwu.cc"
+  -
+    name: "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+    type: "vless"
+    server: "myfreexnum01tamiz.bazibazestan.ir"
+    port: 443
+    uuid: "745e0663-483a-4817-9d7e-11190f4b3090"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    servername: "🔒 [By EbraSha]"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Mtdk_nmm5mWBlKzjIOoDXN8nL4zHL-F40WNP5e2E4ko"
+      short-id: "e1bc8e591c390c7c"
+proxy-groups:
+  -
+    name: "🚀 节点选择"
+    type: "select"
+    proxies:
+      - "♻️ 自动选择"
+      - "DIRECT"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+      - "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+      - "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+  -
+    name: "♻️ 自动选择"
+    type: "url-test"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 80
+    proxies:
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+      - "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+      - "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+  -
+    name: "🤖 AI专用"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "DIRECT"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+      - "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+      - "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+  -
+    name: "🎬 流媒体"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "DIRECT"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+      - "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+      - "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+  -
+    name: "🎮 游戏"
+    type: "select"
+    proxies:
+      - "DIRECT"
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+      - "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+      - "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+  -
+    name: "🌍 国外网站"
+    type: "select"
+    proxies:
+      - "🚀 节点选择"
+      - "♻️ 自动选择"
+      - "DIRECT"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 0ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #25"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #26"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #27"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #28"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #31"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #32"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #33"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #36"
+      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🌐 SE | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池2] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇮🇳 印度 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CN | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #3"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #4"
+      - "张牛13 [池3] 🌐 CY | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🌐 BZ | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🌐 SC | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #9"
+      - "张牛13 [池3] 🇦🇺 澳大利亚 | 🏠 家宽 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #10"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #5"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #11"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #12"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #13"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #14"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #15"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #16"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #6"
+      - "张牛13 [池3] 🌐 LT | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #17"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #18"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | ⚡ 1ms #2"
+      - "张牛13 [池3] 🌐 VG | 🏢 机房 | S级 | ⚡ 1ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #19"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #7"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #20"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 1ms #8"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #21"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 1ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #12"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #14"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #16"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #18"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #20"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #21"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #23"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #24"
+      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms #2"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 2ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | ⚡ 2ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #4"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #6"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 3ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 4ms #2"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 5ms"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 8ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 10ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 35ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 36ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 47ms"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | ⚡ 74ms"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | ⚡ 77ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 140ms"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 141ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 142ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 143ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 145ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 146ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏢 机房 | S级 | ⚡ 147ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇬🇧 英国 | 🏠 家宽 | S级 | ⚡ 148ms"
+      - "张牛13 [池3] 🇭🇰 香港 | 🏢 机房 | S级 | ⚡ 149ms"
+      - "张牛13 [池2] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 150ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 151ms #2"
+      - "张牛13 [池2] 🌐 IR | 🏠 家宽 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏢 机房 | S级 | ⚡ 153ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 154ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 155ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池2] 🇳🇱 荷兰 | 🏠 家宽 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 157ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 158ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 159ms"
+      - "张牛13 [池3] 🇳🇱 荷兰 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 161ms"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏢 机房 | S级 | ⚡ 167ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 173ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | S级 | ⚡ 253ms"
+      - "张牛13 [池3] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 322ms"
+      - "张牛13 [池2] 🌐 未知 | 🏠 家宽 | A级 | ⚡ 401ms"
+rules:
+  - "DOMAIN-SUFFIX,openai.com,🤖 AI专用"
+  - "DOMAIN-SUFFIX,chatgpt.com,🤖 AI专用"
+  - "DOMAIN-SUFFIX,oaistatic.com,🤖 AI专用"
+  - "DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI专用"
+  - "DOMAIN-SUFFIX,anthropic.com,🤖 AI专用"
+  - "DOMAIN-SUFFIX,claude.ai,🤖 AI专用"
+  - "DOMAIN-SUFFIX,gemini.google.com,🤖 AI专用"
+  - "DOMAIN-SUFFIX,google.com,🌍 国外网站"
+  - "DOMAIN-SUFFIX,youtube.com,🎬 流媒体"
+  - "DOMAIN-SUFFIX,netflix.com,🎬 流媒体"
+  - "DOMAIN-SUFFIX,telegram.org,🌍 国外网站"
+  - "DOMAIN-SUFFIX,t.me,🌍 国外网站"
+  - "DOMAIN-SUFFIX,xboxlive.com,🎮 游戏"
+  - "DOMAIN-SUFFIX,callofduty.com,🎮 游戏"
+  - "DOMAIN-SUFFIX,activision.com,🎮 游戏"
+  - "GEOSITE,category-ads-all,REJECT"
+  - "GEOIP,CN,DIRECT"
+  - "MATCH,🚀 节点选择"
