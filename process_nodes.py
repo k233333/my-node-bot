@@ -15,23 +15,27 @@ from email.header import Header
 
 
 # ============================================================
-# GitHub Actions 安全版节点聚合体检系统
-# 功能：
-# 1. 多源订阅抓取
-# 2. base64 自动解码
-# 3. 节点去重
-# 4. TCP 连通性测速
-# 5. IP 地区 / ISP 分类
-# 6. 家宽 / 机房识别
-# 7. 生成 sub.txt 普通订阅
-# 8. 生成 clash.yaml，给 Clash Verge / Mihomo 使用
-# 9. 生成 report.html 邮件报告
-# 10. 生成 nodes.json 结构化数据
-# 11. 发送每日 HTML 邮件
+# Node-Master：GitHub Actions 安全版节点聚合体检系统
+#
+# 核心策略：
+# 1. 主池优先，大比例保留
+# 2. 池2/池3/池4 少量进入备用池
+# 3. GitHub Actions 只做粗筛：格式、去重、TCP 端口连通
+# 4. 本地 Clash Verge 负责真实 URL-Test 测速
+# 5. Clash YAML 内分组：
+#    - ♻️ 主池自动选择
+#    - 🧪 备用池自动选择
+#    - 🚀 节点选择
+#
+# 输出文件：
+# - sub.txt
+# - clash.yaml
+# - report.html
+# - nodes.json
 # ============================================================
 
 
-# ====================== 环境变量配置 ======================
+# ====================== 环境变量 ======================
 
 PRIMARY_SUB_URL = os.environ.get("SUB_URL", "").strip()
 
@@ -41,34 +45,58 @@ EMAIL_RECEIVER = os.environ.get("EMAIL_RECEIVER", "").strip()
 
 GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "").strip()
 
-# 163 邮箱默认配置
 SMTP_HOST = os.environ.get("SMTP_HOST", "smtp.163.com").strip()
 SMTP_PORT = int(os.environ.get("SMTP_PORT", "465"))
-
-# 是否发送邮件：默认发送
 SEND_EMAIL = os.environ.get("SEND_EMAIL", "true").lower() == "true"
 
+
 # ====================== GitHub Actions 安全限制 ======================
-# 这些参数是为了避免 GitHub Actions 运行过久、请求过多、输出过大。
+# 不建议设置太大，避免 Actions 跑太久。
 
-TOTAL_LIMIT = int(os.environ.get("TOTAL_LIMIT", "300"))             # 抓取后参与测试的总节点上限
-FINAL_LIMIT = int(os.environ.get("FINAL_LIMIT", "220"))             # 最终写入订阅的节点上限
-MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "16"))              # TCP 测速并发，不建议超过 30
-TCP_TIMEOUT = float(os.environ.get("TCP_TIMEOUT", "2.0"))           # 单节点 TCP 超时
-ALIVE_LIMIT_MS = int(os.environ.get("ALIVE_LIMIT_MS", "3000"))      # 超过这个延迟淘汰
-MAX_IPINFO_LOOKUPS = int(os.environ.get("MAX_IPINFO_LOOKUPS", "180"))  # IP 信息查询上限
-IPINFO_SLEEP_SEC = float(os.environ.get("IPINFO_SLEEP_SEC", "0.35"))   # 查询 IP 信息间隔
-REQUEST_TIMEOUT = float(os.environ.get("REQUEST_TIMEOUT", "10"))    # 拉取订阅超时
-MAX_SOURCE_LINES = int(os.environ.get("MAX_SOURCE_LINES", "2500"))  # 单个源最多读取多少行节点
+TOTAL_LIMIT = int(os.environ.get("TOTAL_LIMIT", "320"))
+MAX_WORKERS = int(os.environ.get("MAX_WORKERS", "16"))
+TCP_TIMEOUT = float(os.environ.get("TCP_TIMEOUT", "2.0"))
+ALIVE_LIMIT_MS = int(os.environ.get("ALIVE_LIMIT_MS", "3000"))
+
+REQUEST_TIMEOUT = float(os.environ.get("REQUEST_TIMEOUT", "10"))
+MAX_SOURCE_LINES = int(os.environ.get("MAX_SOURCE_LINES", "2500"))
+
+MAX_IPINFO_LOOKUPS = int(os.environ.get("MAX_IPINFO_LOOKUPS", "180"))
+IPINFO_SLEEP_SEC = float(os.environ.get("IPINFO_SLEEP_SEC", "0.35"))
 
 
-# ====================== 节点源 ======================
+# ====================== 池子策略 ======================
+# 这里是重点：主池保留多，公开池只少量补充。
 
 POOLS = [
-    {"name": "主池", "url": PRIMARY_SUB_URL},
-    {"name": "池2", "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt"},
-    {"name": "池3", "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/vless.txt"},
-    {"name": "池4", "url": "https://raw.githubusercontent.com/NiREvil/vless/main/sub/vless.txt"},
+    {
+        "name": "主池",
+        "url": PRIMARY_SUB_URL,
+        "role": "primary",
+        "fetch_limit": int(os.environ.get("PRIMARY_FETCH_LIMIT", "240")),
+        "final_limit": int(os.environ.get("PRIMARY_FINAL_LIMIT", "180")),
+    },
+    {
+        "name": "池2",
+        "url": "https://raw.githubusercontent.com/ebrasha/free-v2ray-public-list/main/vless_configs.txt",
+        "role": "backup",
+        "fetch_limit": int(os.environ.get("POOL2_FETCH_LIMIT", "45")),
+        "final_limit": int(os.environ.get("POOL2_FINAL_LIMIT", "15")),
+    },
+    {
+        "name": "池3",
+        "url": "https://raw.githubusercontent.com/F0rc3Run/F0rc3Run/main/splitted-by-protocol/vless.txt",
+        "role": "backup",
+        "fetch_limit": int(os.environ.get("POOL3_FETCH_LIMIT", "45")),
+        "final_limit": int(os.environ.get("POOL3_FINAL_LIMIT", "15")),
+    },
+    {
+        "name": "池4",
+        "url": "https://raw.githubusercontent.com/NiREvil/vless/main/sub/vless.txt",
+        "role": "backup",
+        "fetch_limit": int(os.environ.get("POOL4_FETCH_LIMIT", "45")),
+        "final_limit": int(os.environ.get("POOL4_FINAL_LIMIT", "15")),
+    },
 ]
 
 BACKUP_VMESS_POOL = "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
@@ -146,15 +174,15 @@ DATACENTER_KEYWORDS = [
 ]
 
 
-# ====================== 工具函数 ======================
+# ====================== 基础工具 ======================
+
+def safe_print(msg):
+    print(str(msg), flush=True)
+
 
 def now_cn_str():
     cn_tz = timezone(timedelta(hours=8))
     return datetime.now(cn_tz).strftime("%Y-%m-%d %H:%M:%S")
-
-
-def safe_print(msg):
-    print(str(msg), flush=True)
 
 
 def get_pages_base_url():
@@ -166,7 +194,7 @@ def get_pages_base_url():
 
 def fetch_text(url):
     headers = {
-        "User-Agent": "Mozilla/5.0 Node-Master/2.0",
+        "User-Agent": "Mozilla/5.0 Node-Master/3.0",
         "Accept": "*/*",
     }
     resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
@@ -177,8 +205,7 @@ def fetch_text(url):
 def try_base64_decode(text):
     raw = text.strip()
 
-    # 如果前 200 个字符已经有协议，认为是明文订阅
-    if "://" in raw[:200]:
+    if "://" in raw[:300]:
         return raw
 
     try:
@@ -208,7 +235,6 @@ def fetch_and_decode(url):
             if "://" in line:
                 links.append(line)
 
-        # 控制单源读取量，避免异常大源拖垮 Actions
         if len(links) > MAX_SOURCE_LINES:
             links = random.sample(links, MAX_SOURCE_LINES)
 
@@ -220,12 +246,12 @@ def fetch_and_decode(url):
         return []
 
 
-def strip_fragment(link):
-    return link.split("#", 1)[0].strip()
-
-
 def normalize_link(link):
     return link.strip().replace("\r", "").replace("\n", "")
+
+
+def strip_fragment(link):
+    return link.split("#", 1)[0].strip()
 
 
 def parse_vmess_link(link):
@@ -249,15 +275,12 @@ def parse_vmess_link(link):
 
 def extract_node_info(link):
     """
-    返回：
-    {
-        scheme,
-        host,
-        port,
-        base_link,
-        name,
-        dedup_key
-    }
+    提取节点基本信息，用于去重和 TCP 测试。
+    支持：
+    - vless://
+    - trojan://
+    - vmess://
+    - ss:// 的一部分标准格式
     """
     link = normalize_link(link)
 
@@ -265,34 +288,39 @@ def extract_node_info(link):
         vm = parse_vmess_link(link)
         if not vm:
             return None
+
         host = vm["host"]
         port = vm["port"]
         base_link = strip_fragment(link)
+
+        if not host or not port:
+            return None
+
         return {
             "scheme": "vmess",
             "host": host,
             "port": port,
             "base_link": base_link,
             "name": vm.get("name") or host,
-            "dedup_key": f"vmess|{host}|{port}|{base_link[:80]}",
+            "dedup_key": f"vmess|{host}|{port}|{base_link[:100]}",
         }
 
     try:
         parsed = urllib.parse.urlparse(link)
         scheme = parsed.scheme.lower()
+
         if scheme not in ["vless", "trojan", "ss"]:
             return None
 
         host = parsed.hostname
         port = parsed.port
+
         if not host or not port:
             return None
 
         base_link = strip_fragment(link)
         name = urllib.parse.unquote(parsed.fragment) if parsed.fragment else host
-
         username = parsed.username or ""
-        dedup_key = f"{scheme}|{host}|{port}|{username[:36]}"
 
         return {
             "scheme": scheme,
@@ -300,17 +328,14 @@ def extract_node_info(link):
             "port": int(port),
             "base_link": base_link,
             "name": name,
-            "dedup_key": dedup_key,
+            "dedup_key": f"{scheme}|{host}|{port}|{username[:40]}",
         }
+
     except Exception:
         return None
 
 
 def resolve_host(host):
-    """
-    ipinfo 最好查 IP。
-    如果是域名，先解析一个 IP。
-    """
     try:
         socket.inet_aton(host)
         return host
@@ -324,37 +349,41 @@ def resolve_host(host):
 
 
 def test_tcp_ping(item):
-    pool_name = item["pool_name"]
     host = item["host"]
     port = item["port"]
 
     start_time = time.time()
+
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.settimeout(TCP_TIMEOUT)
             s.connect((host, port))
+
         ping_ms = int((time.time() - start_time) * 1000)
+
         return {
             **item,
-            "ping_ms": ping_ms,
             "alive": True,
+            "ping_ms": ping_ms,
         }
+
     except Exception:
         return {
             **item,
-            "ping_ms": 9999,
             "alive": False,
+            "ping_ms": 9999,
         }
 
 
 def get_ip_info(ip):
     try:
-        headers = {"User-Agent": "Node-Master/2.0"}
+        headers = {"User-Agent": "Node-Master/3.0"}
         resp = requests.get(f"https://ipinfo.io/{ip}/json", headers=headers, timeout=5)
         if resp.status_code == 200:
             return resp.json()
     except Exception:
         pass
+
     return {}
 
 
@@ -381,15 +410,21 @@ def classify_node_type(org):
     return "🏠 家宽"
 
 
-def make_node_name(pool_name, flag, country_zh, node_type, quality, ping_ms):
-    return f"张牛13 [{pool_name}] {flag} {country_zh} | {node_type} | {quality} | ⚡ {ping_ms}ms"
+def make_node_name(pool_name, flag, country_zh, node_type, quality, ping_ms, index):
+    """
+    注意：
+    这里的 ping_ms 是 GitHub 云端 TCP 粗筛延迟，不是你本地 Clash 实际延迟。
+    所以名字里写“云测”，避免误导。
+    """
+    return f"张牛13 [{pool_name}] {flag} {country_zh} | {node_type} | {quality} | 云测{ping_ms}ms #{index}"
 
 
 def encode_name_to_link(base_link, name):
     return f"{base_link}#{urllib.parse.quote(name)}"
 
 
-# ====================== Clash YAML 生成 ======================
+# ====================== 简易 YAML 输出器 ======================
+# 不依赖 pyyaml，适合 GitHub Actions。
 
 def yaml_quote(value):
     if value is None:
@@ -429,6 +464,8 @@ def yaml_dump(obj, indent=0):
     return [f"{space}{yaml_quote(obj)}"]
 
 
+# ====================== Clash 节点转换 ======================
+
 def convert_vless_to_clash(link):
     try:
         parsed = urllib.parse.urlparse(link)
@@ -465,10 +502,13 @@ def convert_vless_to_clash(link):
 
         if q.get("security") == "reality":
             reality_opts = {}
+
             if q.get("pbk"):
                 reality_opts["public-key"] = q.get("pbk")
+
             if q.get("sid"):
                 reality_opts["short-id"] = q.get("sid")
+
             if reality_opts:
                 proxy["reality-opts"] = reality_opts
 
@@ -571,40 +611,76 @@ def convert_vmess_to_clash(link):
 
 def convert_to_clash_proxy(link):
     l = link.lower()
+
     if l.startswith("vless://"):
         return convert_vless_to_clash(link)
+
     if l.startswith("trojan://"):
         return convert_trojan_to_clash(link)
+
     if l.startswith("vmess://"):
         return convert_vmess_to_clash(link)
+
     return None
 
 
-def generate_clash_yaml(final_links):
+def unique_proxy_name(name, seen_names):
+    if name not in seen_names:
+        seen_names.add(name)
+        return name
+
+    i = 2
+    original = name
+
+    while True:
+        new_name = f"{original} #{i}"
+        if new_name not in seen_names:
+            seen_names.add(new_name)
+            return new_name
+        i += 1
+
+
+def generate_clash_yaml(enriched_nodes):
     proxies = []
+    primary_proxy_names = []
+    backup_proxy_names = []
     seen_names = set()
 
-    for link in final_links:
-        proxy = convert_to_clash_proxy(link)
+    for node in enriched_nodes:
+        proxy = convert_to_clash_proxy(node["new_link"])
+
         if not proxy:
             continue
 
-        name = proxy.get("name") or proxy.get("server")
-        original_name = name
-        i = 2
-        while name in seen_names:
-            name = f"{original_name} #{i}"
-            i += 1
-
+        name = proxy.get("name") or node["new_name"] or node["host"]
+        name = unique_proxy_name(name, seen_names)
         proxy["name"] = name
-        seen_names.add(name)
+
         proxies.append(proxy)
 
-    proxy_names = [p["name"] for p in proxies]
+        if node["pool_role"] == "primary":
+            primary_proxy_names.append(name)
+        else:
+            backup_proxy_names.append(name)
 
-    if not proxy_names:
+    # 防止组为空导致 Clash 报错
+    if not primary_proxy_names and backup_proxy_names:
+        primary_proxy_names = backup_proxy_names[:]
+
+    if not backup_proxy_names and primary_proxy_names:
+        backup_proxy_names = primary_proxy_names[:]
+
+    all_proxy_names = primary_proxy_names + [
+        x for x in backup_proxy_names if x not in primary_proxy_names
+    ]
+
+    if not all_proxy_names:
         safe_print("没有可转换为 Clash 的节点，跳过 clash.yaml")
-        return 0
+        return {
+            "clash_count": 0,
+            "primary_clash_count": 0,
+            "backup_clash_count": 0,
+        }
 
     config = {
         "mixed-port": 7890,
@@ -627,35 +703,67 @@ def generate_clash_yaml(final_links):
             {
                 "name": "🚀 节点选择",
                 "type": "select",
-                "proxies": ["♻️ 自动选择", "DIRECT"] + proxy_names,
+                "proxies": [
+                    "♻️ 主池自动选择",
+                    "🧪 备用池自动选择",
+                    "DIRECT",
+                ] + primary_proxy_names[:20] + backup_proxy_names[:10],
             },
             {
-                "name": "♻️ 自动选择",
+                "name": "♻️ 主池自动选择",
                 "type": "url-test",
                 "url": "https://www.gstatic.com/generate_204",
                 "interval": 300,
                 "tolerance": 80,
-                "proxies": proxy_names,
+                "proxies": primary_proxy_names,
+            },
+            {
+                "name": "🧪 备用池自动选择",
+                "type": "url-test",
+                "url": "https://www.gstatic.com/generate_204",
+                "interval": 300,
+                "tolerance": 120,
+                "proxies": backup_proxy_names,
             },
             {
                 "name": "🤖 AI专用",
                 "type": "select",
-                "proxies": ["🚀 节点选择", "♻️ 自动选择", "DIRECT"] + proxy_names,
+                "proxies": [
+                    "♻️ 主池自动选择",
+                    "🧪 备用池自动选择",
+                    "🚀 节点选择",
+                    "DIRECT",
+                ],
             },
             {
                 "name": "🎬 流媒体",
                 "type": "select",
-                "proxies": ["🚀 节点选择", "♻️ 自动选择", "DIRECT"] + proxy_names,
+                "proxies": [
+                    "♻️ 主池自动选择",
+                    "🧪 备用池自动选择",
+                    "🚀 节点选择",
+                    "DIRECT",
+                ],
             },
             {
                 "name": "🎮 游戏",
                 "type": "select",
-                "proxies": ["DIRECT", "🚀 节点选择", "♻️ 自动选择"] + proxy_names,
+                "proxies": [
+                    "DIRECT",
+                    "♻️ 主池自动选择",
+                    "🧪 备用池自动选择",
+                    "🚀 节点选择",
+                ],
             },
             {
                 "name": "🌍 国外网站",
                 "type": "select",
-                "proxies": ["🚀 节点选择", "♻️ 自动选择", "DIRECT"] + proxy_names,
+                "proxies": [
+                    "♻️ 主池自动选择",
+                    "🧪 备用池自动选择",
+                    "🚀 节点选择",
+                    "DIRECT",
+                ],
             },
         ],
 
@@ -667,14 +775,20 @@ def generate_clash_yaml(final_links):
             "DOMAIN-SUFFIX,anthropic.com,🤖 AI专用",
             "DOMAIN-SUFFIX,claude.ai,🤖 AI专用",
             "DOMAIN-SUFFIX,gemini.google.com,🤖 AI专用",
-            "DOMAIN-SUFFIX,google.com,🌍 国外网站",
+
             "DOMAIN-SUFFIX,youtube.com,🎬 流媒体",
             "DOMAIN-SUFFIX,netflix.com,🎬 流媒体",
+            "DOMAIN-SUFFIX,disneyplus.com,🎬 流媒体",
+
             "DOMAIN-SUFFIX,telegram.org,🌍 国外网站",
             "DOMAIN-SUFFIX,t.me,🌍 国外网站",
+            "DOMAIN-SUFFIX,google.com,🌍 国外网站",
+            "DOMAIN-SUFFIX,github.com,🌍 国外网站",
+
             "DOMAIN-SUFFIX,xboxlive.com,🎮 游戏",
             "DOMAIN-SUFFIX,callofduty.com,🎮 游戏",
             "DOMAIN-SUFFIX,activision.com,🎮 游戏",
+
             "GEOSITE,category-ads-all,REJECT",
             "GEOIP,CN,DIRECT",
             "MATCH,🚀 节点选择",
@@ -686,50 +800,59 @@ def generate_clash_yaml(final_links):
     with open("clash.yaml", "w", encoding="utf-8") as f:
         f.write(yaml_text)
 
-    safe_print(f"clash.yaml 已生成，Clash 节点数：{len(proxies)}")
-    return len(proxies)
+    safe_print(
+        f"clash.yaml 已生成，总节点 {len(proxies)}，主池 {len(primary_proxy_names)}，备用池 {len(backup_proxy_names)}"
+    )
+
+    return {
+        "clash_count": len(proxies),
+        "primary_clash_count": len(primary_proxy_names),
+        "backup_clash_count": len(backup_proxy_names),
+    }
 
 
-# ====================== 报告生成 ======================
+# ====================== 邮件报告 ======================
 
 def build_report_html(stats, classified_nodes, urls, backup_vmess_links):
     update_time = now_cn_str()
 
-    normal_sub_url = urls.get("sub", "")
-    clash_url = urls.get("clash", "")
-    report_url = urls.get("report", "")
-    json_url = urls.get("json", "")
-
-    quality = stats["quality_count"]
-
     html = f"""
-    <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; color: #222; line-height: 1.6;">
+    <div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;color:#222;line-height:1.6;">
         <h2>🚀 聚合订阅更新成功</h2>
 
         <p>更新时间：<b>{update_time}</b></p>
 
         <div style="background:#f8fafc;border-left:4px solid #2563eb;padding:12px 14px;margin:12px 0;">
             <p style="margin:4px 0;">抓取节点：<b>{stats['raw_count']}</b> 个</p>
-            <p style="margin:4px 0;">格式有效：<b>{stats['valid_count']}</b> 个</p>
-            <p style="margin:4px 0;">TCP 可连接：<b>{stats['alive_count']}</b> 个</p>
-            <p style="margin:4px 0;">最终入库：<b>{stats['final_count']}</b> 个</p>
+            <p style="margin:4px 0;">格式有效去重：<b>{stats['valid_count']}</b> 个</p>
+            <p style="margin:4px 0;">云端 TCP 可连接：<b>{stats['alive_count']}</b> 个</p>
+            <p style="margin:4px 0;">最终保留：<b>{stats['final_count']}</b> 个</p>
+            <p style="margin:4px 0;">主池保留：<b>{stats['primary_final_count']}</b> 个</p>
+            <p style="margin:4px 0;">备用池保留：<b>{stats['backup_final_count']}</b> 个</p>
             <p style="margin:4px 0;">Clash 可导入：<b>{stats['clash_count']}</b> 个</p>
         </div>
 
-        <h3>📊 质量分级</h3>
+        <div style="background:#fff7ed;border-left:4px solid #f97316;padding:12px 14px;margin:12px 0;">
+            <b>重要说明：</b><br>
+            GitHub Actions 只能做云端 TCP 粗筛，不能代表你本地真实速度。<br>
+            本地真实速度以 Clash Verge 的 <b>♻️ 主池自动选择</b> 和 <b>🧪 备用池自动选择</b> 测速结果为准。<br>
+            默认建议使用：<b>🚀 节点选择 → ♻️ 主池自动选择</b>。
+        </div>
+
+        <h3>📊 云端质量分级</h3>
         <ul>
-            <li>S级 0-300ms：<b>{quality.get('S级', 0)}</b> 个</li>
-            <li>A级 301-800ms：<b>{quality.get('A级', 0)}</b> 个</li>
-            <li>B级 801-1500ms：<b>{quality.get('B级', 0)}</b> 个</li>
-            <li>C级 1501-3000ms：<b>{quality.get('C级', 0)}</b> 个</li>
+            <li>S级 0-300ms：<b>{stats['quality_count'].get('S级', 0)}</b> 个</li>
+            <li>A级 301-800ms：<b>{stats['quality_count'].get('A级', 0)}</b> 个</li>
+            <li>B级 801-1500ms：<b>{stats['quality_count'].get('B级', 0)}</b> 个</li>
+            <li>C级 1501-3000ms：<b>{stats['quality_count'].get('C级', 0)}</b> 个</li>
         </ul>
 
         <h3>🔗 订阅地址</h3>
         <div style="background:#f4f4f4;padding:12px;margin:12px 0;border-left:4px solid #27ae60;">
-            <p style="margin:6px 0;"><b>普通订阅：</b><a href="{normal_sub_url}">{normal_sub_url}</a></p>
-            <p style="margin:6px 0;"><b>Clash Verge：</b><a href="{clash_url}">{clash_url}</a></p>
-            <p style="margin:6px 0;"><b>体检报告：</b><a href="{report_url}">{report_url}</a></p>
-            <p style="margin:6px 0;"><b>节点数据：</b><a href="{json_url}">{json_url}</a></p>
+            <p style="margin:6px 0;"><b>普通订阅：</b><a href="{urls['sub']}">{urls['sub']}</a></p>
+            <p style="margin:6px 0;"><b>Clash Verge：</b><a href="{urls['clash']}">{urls['clash']}</a></p>
+            <p style="margin:6px 0;"><b>体检报告：</b><a href="{urls['report']}">{urls['report']}</a></p>
+            <p style="margin:6px 0;"><b>节点数据：</b><a href="{urls['json']}">{urls['json']}</a></p>
         </div>
 
         <h3>🌍 地区分类</h3>
@@ -743,10 +866,11 @@ def build_report_html(stats, classified_nodes, urls, backup_vmess_links):
         """
 
         for item in items[:80]:
+            role_text = "主池" if item["pool_role"] == "primary" else "备用"
             html += (
                 f"<li>"
-                f"[{item['pool_name']}] {item['node_type']} "
-                f"{item['quality']} ⚡ {item['ping_ms']}ms "
+                f"[{role_text}] [{item['pool_name']}] {item['node_type']} "
+                f"{item['quality']} 云测 {item['ping_ms']}ms "
                 f"- IP: {item['ip']} "
                 f"- ISP: {item['org']}"
                 f"</li>"
@@ -771,7 +895,7 @@ def build_report_html(stats, classified_nodes, urls, backup_vmess_links):
     html += """
         <hr style="border:1px solid #eee;margin:20px 0;">
         <p style="font-size:12px;color:#777;">
-            说明：当前测速为 TCP 端口连通性测速，不等同于完整代理可用性测试。延迟越低通常越好，但仍需客户端实际连接验证。
+            Node-Master 自动生成。云端延迟仅用于粗筛，不代表本地实际体验。
         </p>
     </div>
     """
@@ -800,6 +924,7 @@ def send_html_email(subject, html_content):
         server.quit()
         safe_print("邮件发送成功。")
         return True
+
     except Exception as e:
         safe_print(f"邮件发送失败：{e}")
         return False
@@ -808,53 +933,78 @@ def send_html_email(subject, html_content):
 # ====================== 主流程 ======================
 
 def main():
-    safe_print("开始执行 GitHub Actions 安全版节点聚合体检系统...")
+    safe_print("开始执行 Node-Master 主池优先版...")
     safe_print(f"当前时间：{now_cn_str()}")
-    safe_print(f"TOTAL_LIMIT={TOTAL_LIMIT}, FINAL_LIMIT={FINAL_LIMIT}, MAX_WORKERS={MAX_WORKERS}")
+    safe_print(f"MAX_WORKERS={MAX_WORKERS}, TCP_TIMEOUT={TCP_TIMEOUT}, ALIVE_LIMIT_MS={ALIVE_LIMIT_MS}")
 
     valid_pools = [p for p in POOLS if p.get("url")]
+
     if not valid_pools:
-        safe_print("没有可用节点源，请检查 SUB_URL 或 POOLS。")
+        safe_print("没有可用节点源，请检查 SUB_URL。")
         return
 
-    per_pool_limit = max(1, TOTAL_LIMIT // len(valid_pools))
-
-    # 1. 多源抓取
+    # 1. 分池抓取
     all_raw_nodes = []
+
     for pool in valid_pools:
         links = fetch_and_decode(pool["url"])
+
         if not links:
             continue
 
-        if len(links) > per_pool_limit:
-            links = random.sample(links, per_pool_limit)
+        fetch_limit = pool["fetch_limit"]
 
-        for link in links:
+        if len(links) > fetch_limit:
+            # 主池尽量保留前面的稳定顺序，备用池随机抽样
+            if pool["role"] == "primary":
+                links = links[:fetch_limit]
+            else:
+                links = random.sample(links, fetch_limit)
+
+        for idx, link in enumerate(links):
             all_raw_nodes.append({
                 "pool_name": pool["name"],
+                "pool_role": pool["role"],
+                "pool_final_limit": pool["final_limit"],
+                "pool_source_index": idx,
                 "link": normalize_link(link),
             })
 
     raw_count = len(all_raw_nodes)
     safe_print(f"抓取完成，原始节点数：{raw_count}")
 
-    # 2. 格式解析 + 去重
+    if raw_count > TOTAL_LIMIT:
+        # 理论上不会超过太多，这里再兜底一次
+        primary_raw = [n for n in all_raw_nodes if n["pool_role"] == "primary"]
+        backup_raw = [n for n in all_raw_nodes if n["pool_role"] != "primary"]
+        remain = max(0, TOTAL_LIMIT - len(primary_raw))
+
+        if len(backup_raw) > remain:
+            backup_raw = random.sample(backup_raw, remain)
+
+        all_raw_nodes = primary_raw + backup_raw
+        raw_count = len(all_raw_nodes)
+        safe_print(f"触发 TOTAL_LIMIT 兜底，调整后原始节点数：{raw_count}")
+
+    # 2. 解析 + 去重
     valid_nodes = []
     seen = set()
 
     for item in all_raw_nodes:
         info = extract_node_info(item["link"])
+
         if not info:
             continue
 
         dedup_key = info["dedup_key"]
+
         if dedup_key in seen:
             continue
 
         seen.add(dedup_key)
+
         valid_nodes.append({
-            "pool_name": item["pool_name"],
-            "source_link": item["link"],
+            **item,
             **info,
         })
 
@@ -865,22 +1015,50 @@ def main():
         safe_print("没有格式有效节点，结束。")
         return
 
-    # 3. TCP 测速
-    safe_print("开始 TCP 测速...")
+    # 3. TCP 粗筛
+    safe_print("开始云端 TCP 粗筛...")
     tested_nodes = []
+
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         for res in executor.map(test_tcp_ping, valid_nodes):
             tested_nodes.append(res)
 
-    alive_nodes = [n for n in tested_nodes if n["alive"] and n["ping_ms"] < ALIVE_LIMIT_MS]
-    alive_nodes.sort(key=lambda x: x["ping_ms"])
+    alive_nodes = [
+        n for n in tested_nodes
+        if n["alive"] and n["ping_ms"] < ALIVE_LIMIT_MS
+    ]
 
-    safe_print(f"TCP 可连接节点：{len(alive_nodes)}")
+    safe_print(f"云端 TCP 可连接节点：{len(alive_nodes)}")
 
-    # 4. 最终数量限制
-    final_nodes = alive_nodes[:FINAL_LIMIT]
+    # 4. 按池子选择最终节点
+    # 主池：保留较多，按源顺序优先，兼顾云端能连
+    # 备用池：少量保留，按云端 TCP 延迟粗排
+    final_nodes = []
 
-    # 5. 查询 IP 信息 + 分类 + 改名
+    for pool in valid_pools:
+        pool_name = pool["name"]
+        pool_role = pool["role"]
+        final_limit = pool["final_limit"]
+
+        pool_alive = [n for n in alive_nodes if n["pool_name"] == pool_name]
+
+        if pool_role == "primary":
+            pool_alive.sort(key=lambda x: (x["pool_source_index"], x["ping_ms"]))
+        else:
+            pool_alive.sort(key=lambda x: x["ping_ms"])
+
+        selected = pool_alive[:final_limit]
+        final_nodes.extend(selected)
+
+        safe_print(
+            f"{pool_name}：可连接 {len(pool_alive)} 个，最终保留 {len(selected)} 个"
+        )
+
+    if not final_nodes:
+        safe_print("没有最终可用节点，结束。")
+        return
+
+    # 5. IP 信息查询 + 分类 + 改名
     ip_cache = {}
     resolved_cache = {}
 
@@ -890,11 +1068,12 @@ def main():
 
     safe_print("开始 IP 信息查询和节点分类...")
 
-    for idx, node in enumerate(final_nodes):
+    for index, node in enumerate(final_nodes, start=1):
         host = node["host"]
 
         if host not in resolved_cache:
             resolved_cache[host] = resolve_host(host)
+
         ip = resolved_cache[host]
 
         if ip not in ip_cache:
@@ -905,9 +1084,11 @@ def main():
                 ip_cache[ip] = {}
 
         info = ip_cache.get(ip, {})
+
         country_code = info.get("country", "未知")
         country_zh = COUNTRY_CODE_MAP.get(country_code, country_code)
         org = info.get("org", "未知ISP")
+
         flag = country_flag(country_zh)
         node_type = classify_node_type(org)
         quality = classify_quality(node["ping_ms"])
@@ -919,6 +1100,7 @@ def main():
             node_type,
             quality,
             node["ping_ms"],
+            index,
         )
 
         new_link = encode_name_to_link(node["base_link"], new_name)
@@ -941,9 +1123,11 @@ def main():
 
         classified_nodes.setdefault(country_zh, []).append(enriched)
 
-    # 每个地区内部按延迟排序
+    # 每个地区内部按主池优先 + 延迟排序
     for country in classified_nodes:
-        classified_nodes[country].sort(key=lambda x: x["ping_ms"])
+        classified_nodes[country].sort(
+            key=lambda x: (0 if x["pool_role"] == "primary" else 1, x["ping_ms"])
+        )
 
     # 地区按数量排序
     classified_nodes = dict(
@@ -960,13 +1144,15 @@ def main():
     safe_print(f"sub.txt 已生成，节点数：{len(final_subscription_links)}")
 
     # 7. 生成 Clash YAML
-    clash_count = generate_clash_yaml(final_subscription_links)
+    clash_stats = generate_clash_yaml(enriched_nodes)
 
     # 8. 生成 nodes.json
     json_nodes = []
+
     for n in enriched_nodes:
         json_nodes.append({
             "pool_name": n["pool_name"],
+            "pool_role": n["pool_role"],
             "scheme": n["scheme"],
             "host": n["host"],
             "port": n["port"],
@@ -976,7 +1162,7 @@ def main():
             "org": n["org"],
             "node_type": n["node_type"],
             "quality": n["quality"],
-            "ping_ms": n["ping_ms"],
+            "cloud_tcp_ping_ms": n["ping_ms"],
             "name": n["new_name"],
         })
 
@@ -984,6 +1170,7 @@ def main():
         json.dump(
             {
                 "updated_at": now_cn_str(),
+                "note": "cloud_tcp_ping_ms 是 GitHub Actions 云端 TCP 粗筛延迟，不代表本地 Clash 实际测速。",
                 "total": len(json_nodes),
                 "nodes": json_nodes,
             },
@@ -996,12 +1183,18 @@ def main():
 
     # 9. 灾备 VMESS
     backup_vmess_links = []
+
     try:
         safe_print("开始抓取灾备 VMESS 节点...")
         raw_backup = fetch_and_decode(BACKUP_VMESS_POOL)
-        vmess_only = [link for link in raw_backup if link.lower().startswith("vmess://")]
+        vmess_only = [
+            link for link in raw_backup
+            if link.lower().startswith("vmess://")
+        ]
+
         if vmess_only:
             backup_vmess_links = random.sample(vmess_only, min(20, len(vmess_only)))
+
     except Exception as e:
         safe_print(f"灾备 VMESS 抓取异常：{e}")
 
@@ -1010,16 +1203,22 @@ def main():
     for n in enriched_nodes:
         quality_count[n["quality"]] = quality_count.get(n["quality"], 0) + 1
 
+    primary_final_count = len([n for n in enriched_nodes if n["pool_role"] == "primary"])
+    backup_final_count = len([n for n in enriched_nodes if n["pool_role"] != "primary"])
+
     stats = {
         "raw_count": raw_count,
         "valid_count": valid_count,
         "alive_count": len(alive_nodes),
         "final_count": len(enriched_nodes),
-        "clash_count": clash_count,
+        "primary_final_count": primary_final_count,
+        "backup_final_count": backup_final_count,
         "quality_count": quality_count,
+        **clash_stats,
     }
 
     pages_base = get_pages_base_url()
+
     if pages_base:
         urls = {
             "sub": f"{pages_base}/sub.txt",
@@ -1043,11 +1242,12 @@ def main():
 
     safe_print("report.html 已生成。")
 
-    # 12. 邮件发送
+    # 12. 发送邮件
     subject = (
         f"自动化聚合节点体检完成｜"
-        f"{stats['final_count']} 个可用｜"
-        f"S级 {quality_count.get('S级', 0)} 个｜"
+        f"主池 {primary_final_count}｜"
+        f"备用 {backup_final_count}｜"
+        f"总计 {len(enriched_nodes)}｜"
         f"{now_cn_str()}"
     )
 
