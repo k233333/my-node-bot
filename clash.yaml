@@ -13,8 +13,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #1"
     type: "vless"
-    server: "108.162.198.16"
-    port: 2083
+    server: "104.18.33.183"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -27,10 +27,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #2"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #2"
     type: "vless"
-    server: "104.17.161.190"
-    port: 2053
+    server: "104.17.189.157"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -43,10 +43,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #3"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #3"
     type: "vless"
-    server: "104.17.187.10"
-    port: 2053
+    server: "162.159.38.0"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -61,8 +61,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测4ms #4"
     type: "vless"
-    server: "104.19.146.158"
-    port: 443
+    server: "104.17.21.202"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -75,9 +75,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #5"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #5"
     type: "vless"
-    server: "104.19.146.237"
+    server: "104.19.35.105"
     port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -93,23 +93,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #6"
     type: "vless"
-    server: "108.162.198.25"
-    port: 2053
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #7"
-    type: "vless"
-    server: "162.159.38.83"
+    server: "104.17.210.242"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -123,9 +107,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #8"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #7"
     type: "vless"
-    server: "162.159.41.141"
+    server: "104.17.214.124"
     port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -139,9 +123,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #9"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #8"
     type: "vless"
-    server: "104.17.50.24"
+    server: "104.17.219.41"
     port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -155,26 +139,42 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #10"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #9"
     type: "vless"
-    server: "108.162.198.126"
+    server: "162.159.35.221"
+    port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #10"
+    type: "vless"
+    server: "104.17.221.42"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #11"
+    type: "vless"
+    server: "104.19.147.170"
     port: 8443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #11"
-    type: "vless"
-    server: "172.66.2.30"
-    port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -189,8 +189,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #12"
     type: "vless"
-    server: "104.16.247.33"
-    port: 2083
+    server: "198.41.209.85"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -203,25 +203,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #13"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #13"
     type: "vless"
-    server: "104.17.179.113"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #14"
-    type: "vless"
-    server: "188.164.248.199"
+    server: "172.66.0.143"
     port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -235,10 +219,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #15"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #14"
     type: "vless"
-    server: "172.66.2.99"
-    port: 2053
+    server: "104.19.35.157"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -251,10 +235,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #16"
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #15"
     type: "vless"
-    server: "104.19.52.151"
-    port: 2053
+    server: "91.193.59.74"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -267,10 +251,26 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #17"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #16"
     type: "vless"
-    server: "188.164.248.188"
-    port: 2053
+    server: "8.39.125.36"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测7ms #17"
+    type: "vless"
+    server: "91.193.58.45"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -285,8 +285,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #18"
     type: "vless"
-    server: "8.39.125.194"
-    port: 443
+    server: "104.17.61.171"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -299,10 +299,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #19"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #19"
     type: "vless"
-    server: "198.41.208.89"
-    port: 8443
+    server: "8.39.125.237"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -317,7 +317,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #20"
     type: "vless"
-    server: "104.26.6.62"
+    server: "104.17.107.199"
     port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -333,7 +333,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #21"
     type: "vless"
-    server: "104.19.147.71"
+    server: "8.39.125.59"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -347,9 +347,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #22"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #22"
     type: "vless"
-    server: "162.159.39.20"
+    server: "104.17.23.223"
     port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -365,8 +365,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #23"
     type: "vless"
-    server: "108.162.198.136"
-    port: 2087
+    server: "198.41.209.139"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -379,10 +379,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #24"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #24"
     type: "vless"
-    server: "104.17.50.146"
-    port: 443
+    server: "104.17.61.228"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -397,8 +397,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #25"
     type: "vless"
-    server: "172.67.67.181"
-    port: 2053
+    server: "104.19.32.85"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -411,9 +411,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #26"
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #26"
     type: "vless"
-    server: "104.17.99.194"
+    server: "91.193.58.128"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -427,9 +427,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #27"
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #27"
     type: "vless"
-    server: "104.17.99.9"
+    server: "91.193.58.182"
     port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -445,23 +445,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #28"
     type: "vless"
-    server: "104.18.33.103"
-    port: 8443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #29"
-    type: "vless"
-    server: "104.17.179.142"
+    server: "104.17.215.227"
     port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -475,9 +459,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #30"
+    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #29"
     type: "vless"
-    server: "162.159.44.150"
+    server: "188.164.248.109"
     port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -491,9 +475,25 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #31"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | B级 | 云测1035ms #30"
     type: "vless"
-    server: "172.66.3.222"
+    server: "8.35.211.182"
+    port: 2053
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #31"
+    type: "vless"
+    server: "198.41.208.166"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -509,8 +509,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #32"
     type: "vless"
-    server: "104.19.149.177"
-    port: 2087
+    server: "198.41.208.169"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -525,8 +525,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #33"
     type: "vless"
-    server: "104.19.33.57"
-    port: 8443
+    server: "104.17.121.52"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -539,10 +539,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #34"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #34"
     type: "vless"
-    server: "91.193.58.13"
-    port: 443
+    server: "162.159.36.18"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -555,9 +555,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #35"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #35"
     type: "vless"
-    server: "104.16.241.142"
+    server: "104.17.183.186"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -573,8 +573,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #36"
     type: "vless"
-    server: "104.16.252.231"
-    port: 443
+    server: "104.19.52.80"
+    port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -589,8 +589,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #37"
     type: "vless"
-    server: "188.164.248.145"
-    port: 8443
+    server: "188.164.248.141"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -605,7 +605,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #38"
     type: "vless"
-    server: "104.17.121.36"
+    server: "104.17.23.196"
     port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -619,10 +619,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #39"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #39"
     type: "vless"
-    server: "91.193.58.45"
-    port: 2083
+    server: "104.19.48.188"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -635,10 +635,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #40"
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #40"
     type: "vless"
-    server: "8.39.125.17"
-    port: 2096
+    server: "91.193.58.12"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -653,8 +653,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #41"
     type: "vless"
-    server: "104.16.145.106"
-    port: 443
+    server: "108.162.198.141"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -669,7 +669,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #42"
     type: "vless"
-    server: "8.39.125.139"
+    server: "104.17.22.127"
     port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -683,10 +683,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #43"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #43"
     type: "vless"
-    server: "162.159.39.230"
-    port: 2053
+    server: "108.162.198.95"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -699,10 +699,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #44"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #44"
     type: "vless"
-    server: "104.17.223.64"
-    port: 443
+    server: "104.17.110.42"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -717,8 +717,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #45"
     type: "vless"
-    server: "104.18.33.0"
-    port: 443
+    server: "104.17.99.147"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -733,8 +733,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #46"
     type: "vless"
-    server: "8.39.125.117"
-    port: 2083
+    server: "104.16.154.50"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -747,10 +747,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #47"
+    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #47"
     type: "vless"
-    server: "104.16.253.105"
-    port: 2053
+    server: "188.164.248.173"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -765,8 +765,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #48"
     type: "vless"
-    server: "104.19.52.189"
-    port: 2087
+    server: "104.17.186.245"
+    port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -779,10 +779,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #49"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #49"
     type: "vless"
-    server: "162.159.39.129"
-    port: 2096
+    server: "172.66.1.211"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -797,8 +797,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #50"
     type: "vless"
-    server: "104.19.33.48"
-    port: 2083
+    server: "8.35.211.158"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -811,9 +811,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #51"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #51"
     type: "vless"
-    server: "8.35.211.227"
+    server: "172.67.76.32"
     port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -829,8 +829,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #52"
     type: "vless"
-    server: "198.41.208.222"
-    port: 8443
+    server: "104.18.33.67"
+    port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -845,8 +845,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #53"
     type: "vless"
-    server: "8.35.211.170"
-    port: 2087
+    server: "104.17.50.236"
+    port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -861,8 +861,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #54"
     type: "vless"
-    server: "104.17.185.152"
-    port: 2087
+    server: "8.39.125.25"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -877,8 +877,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #55"
     type: "vless"
-    server: "104.16.253.23"
-    port: 2053
+    server: "104.17.176.112"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -893,8 +893,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #56"
     type: "vless"
-    server: "104.17.171.143"
-    port: 2087
+    server: "104.17.50.228"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -909,8 +909,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #57"
     type: "vless"
-    server: "104.17.169.203"
-    port: 2087
+    server: "104.17.19.56"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -925,8 +925,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #58"
     type: "vless"
-    server: "8.35.211.223"
-    port: 2087
+    server: "8.39.125.169"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -939,10 +939,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #59"
+    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #59"
     type: "vless"
-    server: "91.193.58.211"
-    port: 443
+    server: "188.164.248.59"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -957,7 +957,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #60"
     type: "vless"
-    server: "104.26.12.105"
+    server: "104.17.209.36"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -973,23 +973,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #61"
     type: "vless"
-    server: "172.66.3.59"
-    port: 2087
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #62"
-    type: "vless"
-    server: "104.19.33.227"
+    server: "104.19.32.22"
     port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1003,10 +987,26 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #63"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #62"
     type: "vless"
-    server: "188.164.248.192"
-    port: 8443
+    server: "104.16.253.30"
+    port: 443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #63"
+    type: "vless"
+    server: "108.162.198.252"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1021,7 +1021,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #64"
     type: "vless"
-    server: "104.19.49.241"
+    server: "104.17.157.245"
     port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1035,10 +1035,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #65"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #65"
     type: "vless"
-    server: "162.159.39.162"
-    port: 8443
+    server: "8.35.211.50"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1051,10 +1051,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #66"
+    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #66"
     type: "vless"
-    server: "172.67.72.64"
-    port: 2096
+    server: "188.164.248.199"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1069,23 +1069,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #67"
     type: "vless"
-    server: "104.26.3.229"
-    port: 2087
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #68"
-    type: "vless"
-    server: "8.35.211.114"
+    server: "162.159.41.203"
     port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1099,10 +1083,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #69"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #68"
     type: "vless"
-    server: "104.17.156.159"
-    port: 443
+    server: "104.16.255.26"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1115,10 +1099,26 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #70"
+    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #69"
     type: "vless"
-    server: "104.19.51.209"
-    port: 2053
+    server: "188.164.248.157"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #70"
+    type: "vless"
+    server: "104.18.33.40"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1133,8 +1133,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #71"
     type: "vless"
-    server: "104.17.213.39"
-    port: 2053
+    server: "104.17.209.63"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1149,8 +1149,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #72"
     type: "vless"
-    server: "104.16.255.241"
-    port: 443
+    server: "104.16.153.185"
+    port: 2053
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1165,8 +1165,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #73"
     type: "vless"
-    server: "104.17.214.20"
-    port: 443
+    server: "108.162.198.243"
+    port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1181,71 +1181,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #74"
     type: "vless"
-    server: "104.17.63.15"
-    port: 2087
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #75"
-    type: "vless"
-    server: "104.26.11.158"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #76"
-    type: "vless"
-    server: "91.193.58.63"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #77"
-    type: "vless"
-    server: "104.16.155.5"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #78"
-    type: "vless"
-    server: "188.164.248.79"
+    server: "104.17.111.190"
     port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1259,10 +1195,74 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #79"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #75"
     type: "vless"
-    server: "188.164.248.132"
+    server: "162.159.42.64"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #76"
+    type: "vless"
+    server: "104.17.49.8"
+    port: 2083
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #77"
+    type: "vless"
+    server: "104.19.151.243"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #78"
+    type: "vless"
+    server: "104.17.60.79"
     port: 8443
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #79"
+    type: "vless"
+    server: "104.17.154.22"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1277,8 +1277,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #80"
     type: "vless"
-    server: "104.18.33.220"
-    port: 443
+    server: "104.17.172.221"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1293,7 +1293,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #81"
     type: "vless"
-    server: "104.17.208.37"
+    server: "162.159.34.198"
     port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1307,9 +1307,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #82"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #82"
     type: "vless"
-    server: "172.66.2.3"
+    server: "104.19.54.201"
     port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1323,10 +1323,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #83"
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #83"
     type: "vless"
-    server: "104.17.61.12"
-    port: 2053
+    server: "91.193.58.145"
+    port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1339,26 +1339,26 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #84"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #84"
     type: "vless"
-    server: "104.17.109.46"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #85"
-    type: "vless"
-    server: "104.16.146.25"
+    server: "8.39.125.84"
     port: 2087
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #85"
+    type: "vless"
+    server: "91.193.58.220"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1373,7 +1373,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #86"
     type: "vless"
-    server: "104.19.34.12"
+    server: "104.17.179.132"
     port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1389,8 +1389,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #87"
     type: "vless"
-    server: "162.159.41.254"
-    port: 8443
+    server: "104.16.156.39"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1405,7 +1405,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #88"
     type: "vless"
-    server: "104.17.54.184"
+    server: "104.17.184.192"
     port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1419,10 +1419,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测8ms #89"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #89"
     type: "vless"
-    server: "162.159.39.183"
-    port: 2053
+    server: "104.17.109.32"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1435,9 +1435,9 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #90"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #90"
     type: "vless"
-    server: "104.17.61.193"
+    server: "162.159.39.0"
     port: 2083
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1451,10 +1451,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #91"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #91"
     type: "vless"
-    server: "8.39.125.218"
-    port: 443
+    server: "104.19.51.195"
+    port: 2096
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1467,26 +1467,26 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测8ms #92"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #92"
     type: "vless"
-    server: "162.159.39.118"
+    server: "172.66.2.104"
+    port: 2096
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "8032434a.zhangniu13.pages.dev"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "8032434a.zhangniu13.pages.dev"
+  -
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #93"
+    type: "vless"
+    server: "104.16.159.62"
     port: 2053
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #93"
-    type: "vless"
-    server: "188.164.248.27"
-    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1501,8 +1501,8 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #94"
     type: "vless"
-    server: "104.17.218.32"
-    port: 2096
+    server: "104.19.145.184"
+    port: 443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1515,10 +1515,10 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #95"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #95"
     type: "vless"
-    server: "104.17.153.59"
-    port: 2053
+    server: "198.41.208.11"
+    port: 2087
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
@@ -1533,55 +1533,7 @@ proxies:
   -
     name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #96"
     type: "vless"
-    server: "8.39.125.160"
-    port: 2096
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #97"
-    type: "vless"
-    server: "8.35.211.121"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #98"
-    type: "vless"
-    server: "104.17.119.70"
-    port: 443
-    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "8032434a.zhangniu13.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "8032434a.zhangniu13.pages.dev"
-  -
-    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #99"
-    type: "vless"
-    server: "8.35.211.163"
+    server: "104.16.156.96"
     port: 8443
     uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
@@ -1595,54 +1547,25 @@ proxies:
       headers:
         Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #100"
+    name: "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #97"
     type: "vless"
-    server: "172.67.209.127"
-    port: 8880
-    uuid: "1b3ad465-d37e-48a2-bb53-d7fddfc97b11"
-    udp: true
-    tls: false
-    network: "ws"
-    encryption: "none"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "calm-silence-d4a1.217.workers.dev"
-  -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #101"
-    type: "vless"
-    server: "172.64.146.68"
-    port: 443
-    uuid: "fc965ad9-bdd7-4815-ad71-b39ec5972dc1"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "octopusss4.com"
-    ws-opts:
-      path: "/tsghdws"
-      headers:
-        Host: "octopusss4.com"
-  -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #102"
-    type: "vless"
-    server: "104.27.66.214"
+    server: "104.19.147.38"
     port: 8443
-    uuid: "be5851ff-9af5-45ea-b874-a0a035714114"
+    uuid: "d9f20a29-239e-46ab-82bb-fa0d69e480f9"
     udp: true
     tls: true
     network: "ws"
     encryption: "none"
-    servername: "ratatouille.adaspoloandco.com"
+    servername: "8032434a.zhangniu13.pages.dev"
     client-fingerprint: "chrome"
     ws-opts:
-      path: "/admin.php"
+      path: "/?ed=2560"
       headers:
-        Host: "ratatouille.adaspoloandco.com"
+        Host: "8032434a.zhangniu13.pages.dev"
   -
-    name: "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | 云测1ms #103"
+    name: "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #98"
     type: "vless"
-    server: "45.131.6.141"
+    server: "5.10.214.50"
     port: 8880
     uuid: "53fa8faf-ba4b-4322-9c69-a3e5b1555049"
     udp: true
@@ -1650,160 +1573,100 @@ proxies:
     network: "ws"
     encryption: "none"
     ws-opts:
-      path: "Telegram@ShadowProxy66/?ed=2560"
+      path: "/TelegramU0001F1E8U0001F1F3"
       headers:
         Host: "reedfree8mahsang2.redorg.ir"
   -
-    name: "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #104"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #99"
     type: "vless"
-    server: "102.177.189.251"
-    port: 8880
-    uuid: "0132166f-e702-48ed-a9e7-b07af768faf8"
-    udp: true
-    tls: false
-    network: "ws"
-    encryption: "none"
-    servername: "Telegram-channel-WangCai2"
-    ws-opts:
-      path: "/Telegram🇨🇳"
-      headers:
-        Host: "Telegram-channel-WangCai2"
-  -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #105"
-    type: "vless"
-    server: "188.114.99.229"
+    server: "172.67.187.251"
     port: 8080
-    uuid: "797b9388-1a84-8311-155b-6bb0547653b5"
+    uuid: "b6e97b8a-1b43-4fa9-ab1b-d0139df07f59"
     udp: true
     tls: false
     network: "ws"
     encryption: "none"
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
-        Host: "188.114.99.229"
+        Host: "11tg.w79kip11.workers.dev"
   -
-    name: "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #106"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #100"
     type: "vless"
-    server: "91.193.58.85"
-    port: 8880
-    uuid: "fab7bf9c-ddb9-4563-8a04-fb01ce6c0fbf"
-    udp: true
-    tls: false
-    network: "ws"
-    encryption: "none"
-    ws-opts:
-      path: "Telegram@WangCai2/?ed=2560"
-      headers:
-        Host: "kjgx.laoyoutiao.link"
-  -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #107"
-    type: "vless"
-    server: "199.232.78.170"
-    port: 443
-    uuid: "%58pnTeam-10"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "ssl.fastly.com"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "Appxdn.global.ssl.fastly.net"
-  -
-    name: "张牛13 [池2] 🌐 VG | 🏢 机房 | S级 | 云测2ms #108"
-    type: "vless"
-    server: "45.142.120.243"
+    server: "185.135.9.235"
     port: 2053
     uuid: "ee2bb495-2632-445b-b1f8-3c476a50b78b"
     udp: true
     tls: true
     network: "ws"
     encryption: "none"
-    servername: "dl1-fr-cdn.easy-upload.org"
+    servername: "dl1-uk-cdn.easy-upload.org"
     ws-opts:
       path: "/"
       headers:
-        Host: "dl1-fr-cdn.easy-upload.org"
+        Host: "dl1-uk-cdn.easy-upload.org"
   -
-    name: "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | 云测2ms #109"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #101"
     type: "vless"
-    server: "45.81.58.53"
-    port: 8880
-    uuid: "b5441b0d-2147-4898-8a6a-9b2c87f58382"
-    udp: true
-    tls: false
-    network: "ws"
-    encryption: "none"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "bitget1.asdasd.click"
-  -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | 云测10ms #110"
-    type: "vless"
-    server: "69.46.46.54"
-    port: 443
-    uuid: "9f107ce2-d1bc-4911-90f9-64b9de682031"
+    server: "172.67.164.52"
+    port: 2096
+    uuid: "ec7de7e0-3f09-4ef4-8a34-e441917d65fa"
     udp: true
     tls: true
     network: "ws"
     encryption: "none"
-    servername: "srv-2d4637-eebb3c-production.up.railway.app"
+    servername: "verina.ccantarella.dns-dynamic.net"
     client-fingerprint: "chrome"
     ws-opts:
-      path: "/ws/vless/9f107ce2-d1bc-4911-90f9-64b9de682031?ed"
+      path: "/Prime_Verse-Prime_Verse-Prime_Verse-Prime_Verse"
       headers:
-        Host: "srv-2d4637-eebb3c-production.up.railway.app"
+        Host: "verina.ccantarella.dns-dynamic.net"
   -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测16ms #111"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #102"
     type: "vless"
-    server: "log.bpminecraft.com"
-    port: 8880
-    uuid: "ed189537-41de-4abe-9f8b-bb75d457722d"
+    server: "104.24.56.187"
+    port: 80
+    uuid: "e6236ebc-7334-4bed-977f-0c20bcdfcc00"
     udp: true
     tls: false
     network: "ws"
     encryption: "none"
     ws-opts:
-      path: "/pyip=ProxyIP.US.CMLiussss.net"
-      headers:
-        Host: "lucky-cake-4f58.318-5ee.workers.dev"
-  -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测16ms #112"
-    type: "vless"
-    server: "www.pcmag.com"
-    port: 443
-    uuid: "06e4425e-a8cb-4b63-929f-2105604ab0a9"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "in.youlingkais.filegear-sg.me"
-    ws-opts:
       path: "/?ed=2560"
       headers:
-        Host: "in.youlingkais.filegear-sg.me"
+        Host: "a1.ghormehsabzi.dpdns.org"
   -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测32ms #113"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #103"
+    type: "vless"
+    server: "104.21.113.6"
+    port: 80
+    uuid: "db9d419e-3094-4942-9313-d39afd3dd163"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy?ed=512"
+      headers:
+        Host: "spx.lindak.dpdns.org"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #104"
     type: "vless"
     server: "www.speedtest.net"
     port: 443
-    uuid: "38046915-6d82-4d86-8510-b5bcc569d0ea"
+    uuid: "3498b967-319f-436a-9edd-12f6ede84572"
     udp: true
     tls: true
     network: "ws"
     encryption: "none"
-    servername: "PaGes.deV"
+    servername: "rAyAn-cOnFiG-01.rAyAn.dNs-dYnAmIc.nEt"
     client-fingerprint: "chrome"
     ws-opts:
-      path: "/@Prime_Verse?ed=2560"
+      path: "/@Rayan_Config"
       headers:
-        Host: "MydigiKala.pAges.dEv"
+        Host: "rayan-config-01.rayan.dns-dynamic.net"
   -
-    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测33ms #114"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测7ms #105"
     type: "vless"
     server: "www.speedtest.net"
     port: 80
@@ -1817,11 +1680,103 @@ proxies:
       headers:
         Host: "www.speedtest.net.c.1.avaacado.ir"
   -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #115"
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测17ms #106"
+    type: "vless"
+    server: "chat.deepseek.com"
+    port: 80
+    uuid: "71552f5b-0597-4524-c035-916f9298e163"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "chat.deepseek.com"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测18ms #107"
+    type: "vless"
+    server: "www.speedtest.net"
+    port: 80
+    uuid: "4a8cf62f-998f-413e-8301-cc3d06e805e2"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none="
+    ws-opts:
+      path: "/@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT---@CUSTOMIZEROBOT/www.speedtest.net?ed=2080"
+      headers:
+        Host: "s1.VPNCUSTOMIZE.dNs-dynamic.neT."
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测18ms #108"
+    type: "vless"
+    server: "x8-germany-amazon-v2-rug6e.we-are-team-xstack-this-is-free-config-join-us-enjoy.net"
+    port: 8080
+    uuid: "c699685e-b072-4141-9406-ee22f89f13ed"
+    udp: true
+    tls: false
+    network: "ws"
+    encryption: "none"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "x8-germany-amazon-v2-rug6e.we-are-team-xstack-this-is-free-config-join-us-enjoy.net"
+  -
+    name: "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测28ms #109"
+    type: "vless"
+    server: "npmjs.com"
+    port: 2053
+    uuid: "1lpxy6haqm"
+    udp: true
+    tls: true
+    network: "httpupgrade"
+    encryption: "none"
+    servername: "1lpxy6haqm-451516713.zamam.co"
+    client-fingerprint: "chrome"
+  -
+    name: "张牛13 [池2] 🌐 IE | 🏠 家宽 | S级 | 云测134ms #110"
+    type: "vless"
+    server: "50.7.5.166"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "ir-new.failspace.top"
+    client-fingerprint: "firefox"
+  -
+    name: "张牛13 [池2] 🌐 BE | 🏢 机房 | S级 | 云测149ms #111"
+    type: "vless"
+    server: "151.101.9.81"
+    port: 80
+    uuid: "cf25f9d0-408f-1142-30aa-01ead41c420d"
+    udp: true
+    tls: false
+    network: "xhttp"
+    encryption: "none"
+  -
+    name: "张牛13 [池2] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测149ms #112"
+    type: "vless"
+    server: "93.152.223.193"
+    port: 443
+    uuid: "0dd9cfaa-cebd-4444-8778-70cb22737944"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "ded53.cloudvk.cc"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Af5z1nqUp0NV9zY4hEtB66G1Df1vzs0TzX-ttU9BPA8"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测0ms #113"
     type: "vless"
     server: "151.101.56.6"
     port: 443
-    uuid: "ac3ef9c7-5732-4726-e7c6-3c73703987c7"
+    uuid: "1fac5e18-2ca8-4626-c299-1f3f21c6b55e"
     udp: true
     tls: true
     network: "ws"
@@ -1833,7 +1788,22 @@ proxies:
       headers:
         Host: "c12.com"
   -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #116"
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #114"
+    type: "vless"
+    server: "199.232.78.159"
+    port: 443
+    uuid: "404aa1e8-4935-4919-8b74-60e88b065cf4"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "ssl.fastly.com"
+    ws-opts:
+      path: "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053"
+      headers:
+        Host: "pane2.global.ssl.fastly.net"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #115"
     type: "vless"
     server: "104.21.60.109"
     port: 443
@@ -1848,151 +1818,72 @@ proxies:
       headers:
         Host: "cfvvv-ev1.pages.dev"
   -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #117"
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #116"
     type: "vless"
-    server: "172.64.150.28"
-    port: 2082
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    server: "104.21.34.106"
+    port: 443
+    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
     udp: true
-    tls: false
+    tls: true
     network: "ws"
     encryption: "none"
-    servername: "hhlfy.twiladaphne.ndjp.net"
+    servername: "nb.lovecf.ggff.net"
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "nb.lovecf.ggff.net"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #117"
+    type: "vless"
+    server: "172.67.156.147"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "jp3.yohototo.top"
     client-fingerprint: "chrome"
     ws-opts:
-      path: "/fp"
+      path: "/tyxyws"
       headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
+        Host: "jp3.yohototo.top"
   -
     name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #118"
     type: "vless"
-    server: "108.162.198.178"
-    port: 8080
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    udp: true
-    tls: false
-    network: "ws"
-    encryption: "none"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #119"
-    type: "vless"
-    server: "162.159.192.125"
+    server: "104.21.70.21"
     port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    uuid: "efe19c5a-0ea1-4666-8a4c-4a33f4670775"
     udp: true
     tls: true
     network: "ws"
     encryption: "none"
-    servername: "xi.tbv.ccwu.cc"
+    servername: "playlux.homes"
     ws-opts:
-      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512"
+      path: "/raccoonwsvless"
       headers:
-        Host: "xi.tbv.ccwu.cc"
+        Host: "playlux.homes"
   -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #120"
+    name: "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | 云测1ms #119"
     type: "vless"
-    server: "172.66.0.236"
+    server: "195.85.23.219"
+    port: 443
+    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
+    udp: true
+    tls: true
+    network: "ws"
+    encryption: "none"
+    servername: "nb.lovecf.ggff.net"
+    client-fingerprint: "chrome"
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "nb.lovecf.ggff.net"
+  -
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #120"
+    type: "vless"
+    server: "172.64.146.211"
     port: 2083
-    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "cfvvv-ev1.pages.dev"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512"
-      headers:
-        Host: "cfvvv-ev1.pages.dev"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #121"
-    type: "vless"
-    server: "104.16.10.234"
-    port: 443
-    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "u.srilankangrill.online"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "u.srilankangrill.online"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #122"
-    type: "vless"
-    server: "104.16.10.104"
-    port: 443
-    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "cfvvv-ev1.pages.dev"
-    client-fingerprint: "unsafe"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cfvvv-ev1.pages.dev"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #123"
-    type: "vless"
-    server: "104.16.10.189"
-    port: 443
-    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "cfvvv-ev1.pages.dev"
-    client-fingerprint: "unsafe"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cfvvv-ev1.pages.dev"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #124"
-    type: "vless"
-    server: "104.21.5.75"
-    port: 443
-    uuid: "b8d8a5b0-867f-4491-b4e4-30edc04bb10e"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "u.srilankangrill.online"
-    client-fingerprint: "chrome"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "u.srilankangrill.online"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #125"
-    type: "vless"
-    server: "104.16.10.199"
-    port: 443
-    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
-    udp: true
-    tls: true
-    network: "ws"
-    encryption: "none"
-    servername: "cfvvv-ev1.pages.dev"
-    client-fingerprint: "unsafe"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cfvvv-ev1.pages.dev"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测8ms #126"
-    type: "vless"
-    server: "172.64.52.97"
-    port: 2087
     uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
     udp: true
     tls: true
@@ -2001,55 +1892,116 @@ proxies:
     servername: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
     client-fingerprint: "chrome"
     ws-opts:
-      path: "/fp=chrome"
+      path: "/"
       headers:
         Host: "faxf32gkfzoxqv.fx6hsv0.ccwu.cc"
   -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #127"
+    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测63ms #121"
     type: "vless"
-    server: "162.159.38.127"
-    port: 2052
-    uuid: "47fcef29-ab4e-4aa6-932b-d95a18f28a4e"
-    udp: true
-    tls: false
-    network: "ws"
-    encryption: "none"
-    servername: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-    ws-opts:
-      path: "/?ed=2560security=tls"
-      headers:
-        Host: "8nj2r.2k8t.f88.hh.vavava.kdns.fr"
-  -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测23ms #128"
-    type: "vless"
-    server: "k2.cloud--vpn.site"
+    server: "47.253.226.114"
     port: 443
-    uuid: "ac3ef9c7-5732-4726-e7c6-3c73703987c7"
+    uuid: "055a1ce8-2a16-4a0d-a2c2-22826c9b2413"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc"
+  -
+    name: "张牛13 [池3] 🇯🇵 日本 | 🏢 机房 | S级 | 云测137ms #122"
+    type: "vless"
+    server: "3.114.220.22"
+    port: 10583
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "www.apple.com"
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | 云测141ms #123"
+    type: "vless"
+    server: "62.210.91.2"
+    port: 23576
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "fuck.rkn"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s"
+      short-id: "01"
+  -
+    name: "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | 云测142ms #124"
+    type: "vless"
+    server: "147.90.26.37"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
     tls: true
     network: "ws"
     encryption: "none"
-    servername: "ssl.fastly.com"
+    servername: "cdn8848.776676.xyz"
     client-fingerprint: "chrome"
     ws-opts:
-      path: "/"
+      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512"
       headers:
-        Host: "c12.com"
+        Host: "cdn8848.776676.xyz"
   -
-    name: "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测132ms #129"
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测143ms #125"
     type: "vless"
-    server: "162.159.160.139"
-    port: 2083
-    uuid: "44eae030-290b-4083-8102-6f8bab05701b"
+    server: "88.216.220.87"
+    port: 443
+    uuid: "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401"
     udp: true
     tls: true
-    network: "ws"
+    network: "grpc"
     encryption: "none"
-    servername: "cfvvv-ev1.pages.dev"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cfvvv-ev1.pages.dev"
+    servername: "api.noneok.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w"
+      short-id: "1ea59febb8d4fc8e"
+    grpc-opts:
+      grpc-service-name: "api.v1.StreamService"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测143ms #126"
+    type: "vless"
+    server: "185.189.58.195"
+    port: 38353
+    uuid: "6c7614ff-88c9-47cd-a66c-103741109d00"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    servername: "185.189.58.195"
+    client-fingerprint: "chrome"
+  -
+    name: "张牛13 [池3] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测144ms #127"
+    type: "vless"
+    server: "46.28.69.53"
+    port: 443
+    uuid: "f2381f29-c724-4491-95a3-a17bd6eea47f"
+    udp: true
+    tls: true
+    network: "tcp"
+    encryption: "none"
+    flow: "xtls-rprx-vision"
+    servername: "de2.willo.help"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "MldGYzZegwydL76HI_beMlXgD-4ZyCZjIX0sBVPjphY"
+      short-id: "abcd1234"
 proxy-groups:
   -
     name: "🚀 节点选择"
@@ -2059,35 +2011,35 @@ proxy-groups:
       - "🧪 备用池自动选择"
       - "DIRECT"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #1"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #2"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #3"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测4ms #4"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #5"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #6"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #7"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #8"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #9"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #10"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #11"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #12"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #13"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #14"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #15"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #16"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #14"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #16"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测7ms #17"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #18"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #19"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #20"
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #98"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #99"
       - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #100"
       - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #101"
       - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #102"
-      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | 云测1ms #103"
-      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #104"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #105"
-      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #106"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #107"
-      - "张牛13 [池2] 🌐 VG | 🏢 机房 | S级 | 云测2ms #108"
-      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | 云测2ms #109"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #103"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #104"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测7ms #105"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测17ms #106"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测18ms #107"
   -
     name: "♻️ 主池自动选择"
     type: "url-test"
@@ -2096,56 +2048,56 @@ proxy-groups:
     tolerance: 80
     proxies:
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #1"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #2"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #3"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #2"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #3"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测4ms #4"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #5"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #5"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #6"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #7"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #8"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #9"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #10"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #11"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #7"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #8"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #9"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #10"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #11"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #12"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #13"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #14"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #15"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #16"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #17"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #13"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #14"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #15"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #16"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测7ms #17"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #18"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测3ms #19"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #19"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #20"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #21"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #22"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #22"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #23"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #24"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #24"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #25"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #26"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #27"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #26"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #27"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #28"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #29"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #30"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #31"
+      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #29"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | B级 | 云测1035ms #30"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #31"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #32"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #33"
-      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #34"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #35"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #34"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #35"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #36"
       - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #37"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #38"
-      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #39"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #40"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #39"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #40"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #41"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #42"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #43"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #44"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #43"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #44"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #45"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #46"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #47"
+      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #47"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #48"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #49"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #49"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #50"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #51"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #51"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #52"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #53"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #54"
@@ -2153,47 +2105,45 @@ proxy-groups:
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #56"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #57"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #58"
-      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #59"
+      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #59"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #60"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #61"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #62"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #63"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #62"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #63"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #64"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #65"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #66"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #65"
+      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #66"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #67"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #68"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #69"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #70"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #68"
+      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测2ms #69"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #70"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #71"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #72"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #73"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #74"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #75"
-      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #76"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #77"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #78"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #79"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #75"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #76"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #77"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #78"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #79"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #80"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #81"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #82"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #83"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #84"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #85"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #82"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测2ms #83"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #84"
+      - "张牛13 [主池] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #85"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #86"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #87"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #88"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测8ms #89"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #90"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #91"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测8ms #92"
-      - "张牛13 [主池] 🇳🇱 荷兰 | 🏢 机房 | S级 | 云测1ms #93"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #89"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测10ms #90"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #91"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #92"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #93"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #94"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #95"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #95"
       - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #96"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #97"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #98"
-      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #99"
+      - "张牛13 [主池] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #97"
   -
     name: "🧪 备用池自动选择"
     type: "url-test"
@@ -2201,36 +2151,36 @@ proxy-groups:
     interval: 300
     tolerance: 120
     proxies:
+      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #98"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #99"
       - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #100"
       - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #101"
       - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #102"
-      - "张牛13 [池2] 🌐 BZ | 🏢 机房 | S级 | 云测1ms #103"
-      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #104"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #105"
-      - "张牛13 [池2] 🇬🇧 英国 | 🏢 机房 | S级 | 云测1ms #106"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #107"
-      - "张牛13 [池2] 🌐 VG | 🏢 机房 | S级 | 云测2ms #108"
-      - "张牛13 [池2] 🌐 CW | 🏢 机房 | S级 | 云测2ms #109"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏠 家宽 | S级 | 云测10ms #110"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测16ms #111"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测16ms #112"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测32ms #113"
-      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测33ms #114"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #103"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #104"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测7ms #105"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测17ms #106"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测18ms #107"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测18ms #108"
+      - "张牛13 [池2] 🇺🇸 美国 | 🏢 机房 | S级 | 云测28ms #109"
+      - "张牛13 [池2] 🌐 IE | 🏠 家宽 | S级 | 云测134ms #110"
+      - "张牛13 [池2] 🌐 BE | 🏢 机房 | S级 | 云测149ms #111"
+      - "张牛13 [池2] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测149ms #112"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测0ms #113"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #114"
       - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #115"
       - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #116"
       - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #117"
       - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #118"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #119"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #120"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #121"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #122"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #123"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测1ms #124"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #125"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测8ms #126"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测9ms #127"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测23ms #128"
-      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测132ms #129"
+      - "张牛13 [池3] 🌐 CZ | 🏢 机房 | S级 | 云测1ms #119"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测2ms #120"
+      - "张牛13 [池3] 🇺🇸 美国 | 🏢 机房 | S级 | 云测63ms #121"
+      - "张牛13 [池3] 🇯🇵 日本 | 🏢 机房 | S级 | 云测137ms #122"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | 云测141ms #123"
+      - "张牛13 [池3] 🇫🇷 法国 | 🏠 家宽 | S级 | 云测142ms #124"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测143ms #125"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测143ms #126"
+      - "张牛13 [池3] 🇩🇪 德国 | 🏠 家宽 | S级 | 云测144ms #127"
   -
     name: "🤖 AI专用"
     type: "select"
